@@ -63,8 +63,8 @@ The MalverdeSoftware shared packages is free, open-source software under the [Ap
 
 To cite the MalverdeSoftware shared packages, use the "Cite this repository" button on GitHub or [CITATION.cff](CITATION.cff):
 
-> de la Sierra, V. Q., & Ledesma, M. (2026). *MalverdeSoftware shared packages* [Computer software]. MalverdeSoftware. https://github.com/MalverdeSoftware/malverdesoftware
+> de la Sierra, V. Q., & Ledesma, M. (2026). *MalverdeSoftware shared packages* [Computer software]. MalverdeSoftware. https://doi.org/10.5281/zenodo.24184643
 
-A DOI will be added at the first public release.
+The DOI [10.5281/zenodo.24184643](https://doi.org/10.5281/zenodo.24184643) always resolves to the latest release; each release also has its own DOI on Zenodo.
 
 The license covers the code only. The MalverdeSoftware, mVote and mPile names and the MalverdeSoftware logo are not licensed (Apache-2.0, Section 6). Research data collected with this software is not covered either. The communities and partners responsible for each activity govern it.
