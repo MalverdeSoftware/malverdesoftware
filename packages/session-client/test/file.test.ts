@@ -43,6 +43,7 @@ test("the session file renders to Markdown and parses back losslessly", async ()
   assert.deepEqual(parseSessionFile(markdown), file);
   assert.match(markdown, /Keep this file private/);
   assert.match(markdown, /cannot be recovered by anyone/);
+  assert.match(markdown, /a secure place your study has approved/);
   assert.ok(markdown.includes(`| Y01 | ${file.participants[0]!.link} | ${file.participants[0]!.passcode} |`));
   assert.ok(!markdown.includes(`| Y02 |`), "revoked participants are left out of the link table");
   assert.ok(markdown.includes(`| Y03 | ${file.participants[2]!.link} | ${file.participants[2]!.passcode} |`));

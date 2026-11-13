@@ -1,6 +1,6 @@
 {
   "name": "@malverdesoftware/session-client",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "license": "Apache-2.0",
   "description": "Session lifecycle for MalverdeSoftware apps: session key files, personal links with passcodes, sealed drafts and submissions.",
   "type": "module",
