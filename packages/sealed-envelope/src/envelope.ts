@@ -1,4 +1,4 @@
-import { decoder, encoder, fail, fromBase64url, randomBytes, toBase64url } from "./util.ts";
+import { P256, decoder, encoder, fail, fromBase64url, randomBytes, toBase64url } from "./util.ts";
 import type { Bytes } from "./util.ts";
 import type { ContentKey, RecipientPrivateKey, RecipientPublicKey } from "./keys.ts";
 
@@ -16,7 +16,6 @@ const APP = /^[a-z0-9-]{1,40}$/;
 const ID = /^[A-Za-z0-9_-]{22}$/;
 const CHANNELS = new Set<string>(["definition", "draft", "submission", "shared"]);
 const ALGORITHMS = new Set<string>(["A256GCM", "ECDH-ES+A256GCM"]);
-const P256 = { name: "ECDH", namedCurve: "P-256" } as const;
 const ECDH_INFO = encoder.encode("malverdesoftware-envelope/v1 ECDH-ES+A256GCM");
 
 function additionalData(context: EnvelopeContext): Bytes {

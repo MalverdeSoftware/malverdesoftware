@@ -10,8 +10,9 @@ import {
 } from "@malverdesoftware/sealed-envelope";
 import type { Channel, Envelope } from "@malverdesoftware/sealed-envelope";
 import { SessionError, fail } from "./errors.ts";
-import { isAllowedUrl } from "./link.ts";
+import { badLink, isAllowedUrl } from "./link.ts";
 import type { ParticipantCredentials } from "./link.ts";
+import { APP } from "./patterns.ts";
 import { defaultStorage, safeStorage } from "./storage.ts";
 import type { KeyValueStorage } from "./storage.ts";
 import { isEnvelope, isObject, shapes, transport } from "./transport.ts";
@@ -48,7 +49,6 @@ type LocalState = {
   submitted?: { body: unknown; submittedAt: string };
 };
 
-const APP = /^[a-z0-9-]{1,40}$/;
 const sameJson = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b);
 const isCode = (error: unknown, code: string): error is SessionError => error instanceof SessionError && error.code === code;
 
@@ -71,6 +71,12 @@ function readLocal(text: string | null): LocalState {
   }
 }
 
+// A save the relay did not confirm stays on the device; the app shows why.
+const savedOnDevice = (error: SessionError): SaveResult => ({
+  state: "SAVED_ON_DEVICE",
+  reason: error.details?.reason === "SERVER_ERROR" ? "SERVER_ERROR" : "OFFLINE",
+});
+
 const sealing = (error: unknown): never => {
   if (error instanceof EnvelopeError && error.code === "TOO_LARGE")
     fail("TOO_LARGE", "This response is too large to save. Remove some text and try again.");
@@ -84,7 +90,7 @@ export async function joinSession(credentials: ParticipantCredentials, options: 
     fail("BAD_INPUT", "The app name or relay address is not valid.");
   const { sessionId, definitionKey, slotSecret } = credentials;
   const storage = safeStorage(options.storage ?? defaultStorage());
-  const prefix = `malverdesoftware:${app}:${sessionId}:${await hashToken(slotSecret).catch(() => fail("BAD_LINK", "This link is incomplete. Open the full link you were sent."))}`;
+  const prefix = `malverdesoftware:${app}:${sessionId}:${await hashToken(slotSecret).catch(badLink)}`;
   const passcodeKey = `${prefix}:passcode`;
   const stateKey = `${prefix}:state`;
 
@@ -92,7 +98,7 @@ export async function joinSession(credentials: ParticipantCredentials, options: 
   if (!passcode) fail("PASSCODE_REQUIRED", "Enter the six-digit passcode you were sent.");
   const slot = await deriveSlot(slotSecret, passcode!).catch((error: unknown): never => {
     if (error instanceof EnvelopeError && error.code === "BAD_FORMAT") fail("WRONG_PASSCODE", "A passcode is six digits.");
-    if (error instanceof EnvelopeError) fail("BAD_LINK", "This link is incomplete. Open the full link you were sent.");
+    if (error instanceof EnvelopeError) badLink();
     throw error;
   });
   const call = transport(relayUrl, options);
@@ -110,7 +116,7 @@ export async function joinSession(credentials: ParticipantCredentials, options: 
   });
 
   const unreadable = (): never => fail("DECRYPT_FAILED", "This activity could not be opened. Check that you used the full link.");
-  const definitionKeyValue = await importContentKey(definitionKey).catch(() => fail("BAD_LINK", "This link is incomplete. Open the full link you were sent."));
+  const definitionKeyValue = await importContentKey(definitionKey).catch(badLink);
   const payload = await open(definitionKeyValue, view.definition, { app, sessionId, channel: "definition" }).catch(unreadable);
   if (!isObject(payload) || payload.v !== 1 || typeof payload.researcherPublicKey !== "string" || !("appDefinition" in payload))
     unreadable();
@@ -171,8 +177,7 @@ export async function joinSession(credentials: ParticipantCredentials, options: 
       confirmDraft(saved.draftVersion);
       return { state: "SAVED" };
     } catch (error) {
-      if (isCode(error, "NETWORK"))
-        return { state: "SAVED_ON_DEVICE", reason: error.details?.reason === "SERVER_ERROR" ? "SERVER_ERROR" : "OFFLINE" };
+      if (isCode(error, "NETWORK")) return savedOnDevice(error);
       if (isCode(error, "VERSION_CONFLICT") && error.details?.draftVersion === state.baseVersion + 1) {
         // The outcome of an earlier attempt was unknown; if the stored draft is this one, it was saved.
         const latest = await call("GET", path, { token, check: shapes.view });
@@ -266,8 +271,7 @@ export async function joinSession(credentials: ParticipantCredentials, options: 
             await sendSubmission();
             return { state: "SAVED" };
           } catch (error) {
-            if (isCode(error, "NETWORK"))
-              return { state: "SAVED_ON_DEVICE", reason: error.details?.reason === "SERVER_ERROR" ? "SERVER_ERROR" : "OFFLINE" };
+            if (isCode(error, "NETWORK")) return savedOnDevice(error);
             throw error;
           }
         }

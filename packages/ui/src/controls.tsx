@@ -30,6 +30,9 @@ export function ErrorMessage({ error }: { error: string }) {
   ) : null;
 }
 
+/** For screens people tap: 44px buttons. */
+const touchSize = (touch: boolean | undefined) => (touch ? { height: ControlsHeight.L, className: "touch-button" } : {});
+
 /** A Ring button that opens a file picker. */
 export function FileButton({ accept, icon, onPick, children }: {
   accept: string;
@@ -73,7 +76,7 @@ export function ConfirmDialog({ show, title, confirmLabel, cancelLabel = "Cancel
   onCancel: () => void;
   children: ReactNode;
 }) {
-  const size = touch ? { height: ControlsHeight.L, className: "touch-button" } : {};
+  const size = touchSize(touch);
   return (
     <Dialog
       show={show}
@@ -117,7 +120,7 @@ export function ConfirmButton({ label, icon, inline, danger, disabled, touch, on
   children: ReactNode;
 }) {
   const [show, setShow] = useState(false);
-  const size = touch ? { height: ControlsHeight.L, className: "touch-button" } : {};
+  const size = touchSize(touch);
   return (
     <>
       <Button

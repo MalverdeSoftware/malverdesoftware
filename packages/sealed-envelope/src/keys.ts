@@ -1,11 +1,10 @@
-import { EnvelopeError, fail, fromBase64url, randomBytes, toBase64url, encoder } from "./util.ts";
+import { EnvelopeError, P256, fail, fromBase64url, randomBytes, toBase64url, encoder } from "./util.ts";
 import type { Bytes } from "./util.ts";
 
 export type ContentKey = CryptoKey & { readonly __brand: "ContentKey" };
 export type RecipientPublicKey = CryptoKey & { readonly __brand: "RecipientPublicKey" };
 export type RecipientPrivateKey = CryptoKey & { readonly __brand: "RecipientPrivateKey" };
 
-const P256 = { name: "ECDH", namedCurve: "P-256" } as const;
 const TOKEN = /^[A-Za-z0-9_-]{1,256}$/;
 
 export const randomSecret = (): string => toBase64url(randomBytes(32));

@@ -94,10 +94,14 @@ export function createRelay(options: RelayOptions): (request: Request) => Promis
       fail(403, "FORBIDDEN", "This creation key is not valid.");
   }
 
+  async function checkAdminToken(token: string, s: SessionRow) {
+    if (!safeEqual(await sha256(token), s.adminHash)) fail(403, "FORBIDDEN", "This management key is not valid.");
+  }
+
   async function asAdmin(request: Request, sessionId: string): Promise<SessionRow> {
     const token = bearer(request);
     const s = await loadSession(sessionId);
-    if (!safeEqual(await sha256(token), s.adminHash)) fail(403, "FORBIDDEN", "This management key is not valid.");
+    await checkAdminToken(token, s);
     return s;
   }
 
@@ -191,7 +195,7 @@ export function createRelay(options: RelayOptions): (request: Request) => Promis
     const token = bearer(request);
     const s = await store.getSession(sessionId);
     if (!s) return empty();
-    if (!safeEqual(await sha256(token), s.adminHash)) fail(403, "FORBIDDEN", "This management key is not valid.");
+    await checkAdminToken(token, s);
     await store.deleteSession(sessionId);
     return empty();
   }
@@ -221,7 +225,8 @@ export function createRelay(options: RelayOptions): (request: Request) => Promis
     });
   }
 
-  const refuseDraft = (s: SessionRow, r: SlotRow) => {
+  // Nothing more can be written once a response is submitted or the session is closed.
+  const refuseWrite = (s: SessionRow, r: SlotRow) => {
     if (r.submission !== null) fail(409, "ALREADY_SUBMITTED", "This response has already been submitted.");
     if (s.closedAt !== null) fail(409, "SESSION_CLOSED", "This activity is closed.");
   };
@@ -231,13 +236,13 @@ export function createRelay(options: RelayOptions): (request: Request) => Promis
     const { data } = await readBody(request, bodyLimit);
     const envelope = envelopeField(data.envelope, limits.maxEnvelopeBytes);
     const baseVersion = intField(data.baseVersion, 0, Number.MAX_SAFE_INTEGER, "baseVersion");
-    refuseDraft(session, slot);
+    refuseWrite(session, slot);
     const updatedAt = clock().toISOString();
     if (await store.writeDraft(sessionId, slotId, envelope, baseVersion, updatedAt))
       return json({ draftVersion: baseVersion + 1, updatedAt });
     const [s, r] = await Promise.all([store.getSession(sessionId), store.getSlot(sessionId, slotId)]);
     if (!s || !r) return notFound();
-    refuseDraft(s, r);
+    refuseWrite(s, r);
     return fail(409, "VERSION_CONFLICT", "This response changed on another device.", { draftVersion: r.draftVersion });
   }
 
@@ -249,8 +254,7 @@ export function createRelay(options: RelayOptions): (request: Request) => Promis
     // An identical retry replays the first result, even after the session closes.
     const settled = (s: SessionRow, r: SlotRow) => {
       if (r.submissionHash !== null && safeEqual(r.submissionHash, hash)) return json({ submittedAt: r.submittedAt });
-      if (r.submission !== null) fail(409, "ALREADY_SUBMITTED", "This response has already been submitted.");
-      if (s.closedAt !== null) fail(409, "SESSION_CLOSED", "This activity is closed.");
+      refuseWrite(s, r);
       return null;
     };
     const early = settled(session, slot);
