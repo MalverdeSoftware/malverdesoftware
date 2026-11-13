@@ -76,11 +76,14 @@ const work = mkdtempSync(join(tmpdir(), "malverdesoftware-consumer-"));
 try {
   run("git", ["clone", "--quiet", "--depth", "1", "--branch", branch, `file://${source}`, "mpile"], work);
   const app = join(work, "mpile", "app");
-  const vendor = join(app, "vendor", "malverdesoftware");
-  mkdirSync(vendor, { recursive: true });
-  for (const t of tarballs) cpSync(join(root, "artifacts", t), join(vendor, t));
+  // Install mPile exactly as committed first, then the freshly packed tarballs from their own folder.
+  // A fresh pack can share a file name with a committed tarball but not its bytes, and copying over
+  // it would make `npm ci` fail its integrity check.
   run("npm", ["ci"], app);
-  run("npm", ["install", "--save-exact", ...tarballs.map((t) => `./vendor/malverdesoftware/${t}`)], app);
+  const fresh = join(app, "vendor", "malverdesoftware-check");
+  mkdirSync(fresh, { recursive: true });
+  for (const t of tarballs) cpSync(join(root, "artifacts", t), join(fresh, t));
+  run("npm", ["install", "--save-exact", ...tarballs.map((t) => `./vendor/malverdesoftware-check/${t}`)], app);
   writeFileSync(join(app, "malverdesoftware-consumer-check.ts"), TYPE_CHECK);
   run("npm", ["run", "typecheck"], app);
   writeFileSync(join(app, "malverdesoftware-consumer-check.mjs"), RUNTIME_CHECK);
