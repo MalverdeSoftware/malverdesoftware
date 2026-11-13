@@ -12,7 +12,7 @@ import {
 } from "./validate.ts";
 import type { RelayStore, SessionRow, SlotFilter, SlotRow } from "./store.ts";
 
-export const RELAY_VERSION = "0.1.0";
+export const RELAY_VERSION = "0.1.1";
 const DAY = 86_400_000;
 
 export type RelayLimits = {
