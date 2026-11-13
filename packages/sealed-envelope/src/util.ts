@@ -20,6 +20,8 @@ export const fail = (code: EnvelopeErrorCode, message: string): never => {
   throw new EnvelopeError(code, message);
 };
 
+export const P256 = { name: "ECDH", namedCurve: "P-256" } as const;
+
 export const encoder = new TextEncoder();
 export const decoder = new TextDecoder("utf-8", { fatal: true });
 

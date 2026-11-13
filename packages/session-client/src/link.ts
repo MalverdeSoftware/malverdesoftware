@@ -1,20 +1,20 @@
 import { fail } from "./errors.ts";
+import { ID, SECRET } from "./patterns.ts";
 
 export type ParticipantCredentials = { sessionId: string; definitionKey: string; slotSecret: string };
-
-const ID = /^[A-Za-z0-9_-]{22}$/;
-const SECRET = /^[A-Za-z0-9_-]{43}$/;
 
 // Everything secret sits after "#", which browsers never send to servers or in Referer headers.
 export const buildLink = (participantUrl: string, c: ParticipantCredentials) =>
   `${participantUrl}#v1.${c.sessionId}.${c.definitionKey}.${c.slotSecret}`;
+
+export const badLink = (): never => fail("BAD_LINK", "This link is incomplete. Open the full link you were sent.");
 
 export function parseParticipantLink(url: string): ParticipantCredentials {
   const text = typeof url === "string" ? url.trim() : "";
   const fragment = text.includes("#") ? text.slice(text.indexOf("#") + 1) : "";
   const [version, sessionId = "", definitionKey = "", slotSecret = "", ...rest] = fragment.split(".");
   if (version !== "v1" || rest.length || !ID.test(sessionId) || !SECRET.test(definitionKey) || !SECRET.test(slotSecret))
-    fail("BAD_LINK", "This link is incomplete. Open the full link you were sent.");
+    badLink();
   return { sessionId, definitionKey, slotSecret };
 }
 

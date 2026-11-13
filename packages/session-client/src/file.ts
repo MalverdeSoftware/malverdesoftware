@@ -12,6 +12,7 @@ import {
 import type { Envelope } from "@malverdesoftware/sealed-envelope";
 import { fail } from "./errors.ts";
 import { buildLink, isAllowedUrl } from "./link.ts";
+import { APP, ID, SECRET } from "./patterns.ts";
 import { isObject } from "./transport.ts";
 
 export type ParticipantEntry = {
@@ -54,10 +55,7 @@ export type PrepareInput = {
 export const FORMAT = "malverdesoftware-session/v1";
 export const MAX_PARTICIPANTS = 200;
 const MARKER = "<!-- malverdesoftware-session-data: do not edit below this line -->";
-const APP = /^[a-z0-9-]{1,40}$/;
 const LABEL = /^[A-Za-z0-9 _.-]{1,40}$/;
-const ID = /^[A-Za-z0-9_-]{22}$/;
-const SECRET = /^[A-Za-z0-9_-]{43}$/;
 const PUBLIC_KEY = /^[A-Za-z0-9_-]{87}$/;
 const BASE64URL = /^[A-Za-z0-9_-]+$/;
 const PASSCODE = /^[0-9]{6}$/;
