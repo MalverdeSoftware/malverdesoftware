@@ -28,14 +28,17 @@ See [docs/CONSUMING.md](docs/CONSUMING.md) for pinning, entry points and upgrade
 
 | Document | Purpose |
 |---|---|
-| [Capability map](docs/specs/round1-capability-map.md) | Modules, decisions, repository conventions and schedule for round 1 |
+| [Conventions](docs/CONVENTIONS.md) | Tech stack, commands, code style, testing, boundaries and known limits |
+| [Using the packages](docs/CONSUMING.md) | Installing from npm, entry points, upgrades and releases |
 | [sealed-envelope spec](docs/specs/SPEC-sealed-envelope.md) | Browser encryption and the envelope wire format |
 | [relay spec](docs/specs/SPEC-relay.md) | Ciphertext-only store and its HTTP contract |
 | [session-client spec](docs/specs/SPEC-session-client.md) | Session lifecycle, personal links, passcodes and the session key file |
 | [mUI spec](docs/specs/SPEC-ui.md) | How every app looks and behaves: Ring UI, type, color, phones, confirmation |
 | [mGameUI spec](docs/specs/SPEC-game-ui.md) | Everything in a game, including what it takes from Ring and mUI, the apps' spec |
-| [Implementation plan](tasks/plan.md) and [task list](tasks/todo.md) | Build order, risks and verifiable tasks |
-| [Literature](literature/README.md) | What published sources say about Jesús Malverde, for whom the organization is named |
+| [Distribution spec](docs/specs/SPEC-distribution.md) | Registries, releases, DOIs and who can create sessions |
+| [Design ethos](brand/DESIGN-ETHOS.md) | The logo, its rules and the name |
+
+The mPile app spec is in the [mpile repository](https://github.com/MalverdeSoftware/mpile/blob/main/docs/specs/SPEC-mpile-app.md).
 
 ## Development
 

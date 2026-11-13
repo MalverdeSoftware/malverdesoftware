@@ -13,7 +13,7 @@ Packaging alone doesn't get there. Today the hosted sites are gated by keys: mVo
 1. **Installing the tools.** Registries, versions, and a release workflow.
 2. **Creating sessions.** Who can create sessions on mvote.app and mpile.app, and how people run their own copy instead.
 
-## Where things stand (2026-11-12)
+## Where things stood before Phase 1 (2026-11-12)
 
 | | How it's used today | Who can create sessions on the hosted site |
 |---|---|---|
@@ -21,9 +21,8 @@ Packaging alone doesn't get there. Today the hosted sites are gated by keys: mVo
 | **mPile** | Clone the repo, then `npm run console` serves the researcher console at localhost. Keys are made and kept in the browser. | Anyone with a creation key issued by the operator. The relay stores only hashes of keys (`RELAY_CREATION_KEY_HASHES`). A creation key opens no one's data. |
 | **Shared packages** | Packed `.tgz` files copied into each app's `vendor/` folder ([CONSUMING.md](../CONSUMING.md)). | n/a |
 
-- **License:** all three are Apache-2.0, copyright The Johns Hopkins University, since 2026-11-12 (MVS-4).
-- **Visibility:** the repos are still private. Making them public waits on trademark clearance of the names (MVS-6, MVS-13).
-- **Names:** `mvote` and `mpile` are unclaimed on PyPI and npm, and the `@malverdesoftware` npm org appears unclaimed, all as of 2026-11-12.
+- **License:** all three are Apache-2.0, copyright The Johns Hopkins University, since 2026-11-12.
+- **Now (2026-11-13):** the repositories are public; the four packages are on npm (sealed-envelope 0.1.2, relay 0.1.1, session-client 0.1.3, ui 0.1.1) and mPile and mVote install them from there; mPile and the shared packages have Zenodo DOIs; the mvote tool's first PyPI release waits on the PyPI organization.
 
 ## Rules for every release
 
@@ -41,7 +40,7 @@ Packaging alone doesn't get there. Today the hosted sites are gated by keys: mVo
 
 - Write the release workflows and run them in dry-run mode: `python -m build` plus `twine check`, and `npm pack --dry-run`. Nothing gets uploaded.
 - Change `cli/pyproject.toml` to the SPDX form `license = "Apache-2.0"` with `license-files`, which needs setuptools 77 or newer.
-- Confirm the names are clear (MVS-13) before anything is uploaded. A published name is hard to give up, and PyPI never reuses a deleted project's file names.
+- Confirm the names are clear before anything is uploaded. A published name is hard to give up, and PyPI never reuses a deleted project's file names.
 
 ### Phase 1: at the public flip
 

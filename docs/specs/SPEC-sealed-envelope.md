@@ -1,6 +1,6 @@
 # Spec: sealed-envelope
 
-Module id `sealed-envelope` · October 25, 2026 · **Status: approved by the author on October 25; passcodes were added the same day at their suggestion.** Depends on nothing. Commands, structure, code style and repository-wide boundaries are in the [capability map](round1-capability-map.md#repository-conventions-for-malverdesoftware).
+Module id `sealed-envelope` · October 25, 2026 · **Status: approved by the author on October 25; passcodes were added the same day at their suggestion.** Depends on nothing. Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
 
 ## Objective
 
@@ -80,7 +80,7 @@ The [fixture file](#testing) is the normative reference. The prose below explain
 
 ## Testing
 
-Module-specific, in addition to the [repository conventions](round1-capability-map.md#repository-conventions-for-malverdesoftware).
+Module-specific, in addition to the [repository conventions](../CONVENTIONS.md).
 
 - **Passcode effects:** a different passcode gives a different `writeToken` and `draftKey` but the same `slotId`. `randomPasscode` always returns 6 digits, and 100,000 draws cover all ten leading digits.
 - **Fixtures.** `fixtures/envelope-v1.json` holds known-answer vectors: slot derivation with passcodes, token hashes, and decrypt-only cases for both algorithms (key, context, envelope, expected value). `scripts/make-fixtures.mjs` generates them once from fixed secrets and synthetic values. The file is committed and only changes with a version bump. A later Python implementation must pass the same file.
@@ -92,7 +92,7 @@ Module-specific, in addition to the [repository conventions](round1-capability-m
 
 ## Boundaries
 
-Module-specific additions to the [repository boundaries](round1-capability-map.md#repository-conventions-for-malverdesoftware):
+Module-specific additions to the [repository boundaries](../CONVENTIONS.md#boundaries):
 
 - **Always:** use only WebCrypto algorithms (`AES-GCM`, `ECDH` P-256, `HKDF`, `SHA-256`) and `crypto.getRandomValues`.
 - **Ask first:** any change to the wire format. That requires `v: 2`, new fixtures, and keeping `open` able to read v1 for as long as v1 sessions can exist (30 days at most).

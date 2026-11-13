@@ -1,6 +1,6 @@
 # Spec: session-client
 
-Module id `session-client` · October 25, 2026 · **Status: approved by the author on October 25; passcodes were added the same day at their suggestion.** Depends on `@malverdesoftware/sealed-envelope` (code) and the [relay HTTP contract v1](SPEC-relay.md#http-contract-v1) (network only). Commands, structure, code style and repository-wide boundaries are in the [capability map](round1-capability-map.md#repository-conventions-for-malverdesoftware).
+Module id `session-client` · October 25, 2026 · **Status: approved by the author on October 25; passcodes were added the same day at their suggestion.** Depends on `@malverdesoftware/sealed-envelope` (code) and the [relay HTTP contract v1](SPEC-relay.md#http-contract-v1) (network only). Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
 
 ## Objective
 
@@ -174,7 +174,7 @@ URLs must be `https://`, except `http://127.0.0.1` and `http://localhost` for lo
 
 ## Testing
 
-Module-specific, in addition to the [repository conventions](round1-capability-map.md#repository-conventions-for-malverdesoftware). All tests run end to end in-process: `fetch` is a function that passes requests to `createRelay({ store: memoryStore() })`.
+Module-specific, in addition to the [repository conventions](../CONVENTIONS.md). All tests run end to end in-process: `fetch` is a function that passes requests to `createRelay({ store: memoryStore() })`.
 
 - **Custody test (the key acceptance test).** A recording `fetch` captures every URL, header and body sent to the relay during a full simulated session:
   - 3 participants labeled Y01–Y03, with synthetic cards and pile names containing unique marker strings
@@ -197,7 +197,7 @@ Module-specific, in addition to the [repository conventions](round1-capability-m
 
 ## Boundaries
 
-Module-specific additions to the [repository boundaries](round1-capability-map.md#repository-conventions-for-malverdesoftware):
+Module-specific additions to the [repository boundaries](../CONVENTIONS.md#boundaries):
 
 - **Always:** keep participant labels and the title in the session file only; treat relay responses as untrusted input.
 - **Ask first:** changing the link or session-file format; adding a way to recover a lost session file (any such mechanism would weaken the custody rule).

@@ -51,6 +51,6 @@ Apps are named with a lowercase "m" and one short word: **mVote** and **mPile**,
 
 ## Source and rights
 
-The reference portrait (`reference/Malverde_ai_generated.png`) is AI-generated, and the author treats it as open to use. The hair and the right eye and brow are traced from it. The left eye and brow mirror the right. The mustache and knot are drawn by hand.
+The reference portrait is AI-generated (kept with the project's private brand sources), and the author treats it as open to use. The hair and the right eye and brow are traced from it. The left eye and brow mirror the right. The mustache and knot are drawn by hand.
 
 The code is licensed under Apache-2.0 (2026-11-12), but the logo is not covered by it. Licensing of the logo has not been decided.
