@@ -16,6 +16,14 @@ The rule the shared code enforces: **the software provider never accesses, owns 
 
 Round 1 builds this for a youth community advisory board pile sort run remotely over about a week. The target date is around November 8, 2026, subject to a readiness gate on November 4.
 
+## Install
+
+```sh
+npm install @malverdesoftware/sealed-envelope @malverdesoftware/relay @malverdesoftware/session-client @malverdesoftware/ui
+```
+
+See [docs/CONSUMING.md](docs/CONSUMING.md) for pinning, entry points and upgrades.
+
 ## Documents
 
 | Document | Purpose |

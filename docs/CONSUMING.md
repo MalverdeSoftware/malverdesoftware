@@ -1,8 +1,18 @@
 # Using these packages in an app
 
-Apps such as mPile and mVote use exact, packed versions of these packages. They never point at a sibling checkout or a moving branch, so either app can build from a fresh clone and can upgrade or roll back on its own schedule. Nothing is published to a package registry yet; the packages are Apache-2.0 (see [LICENSE](../LICENSE)) but stay `private` until there's a decision to publish.
+The packages are published on npm under the `@malverdesoftware` scope (Apache-2.0, see [LICENSE](../LICENSE)). Apps pin exact versions and never point at a sibling checkout or a moving branch, so either app can build from a fresh clone and can upgrade or roll back on its own schedule.
 
-## Install a version
+## Install from npm
+
+```sh
+npm install --save-exact @malverdesoftware/sealed-envelope @malverdesoftware/relay @malverdesoftware/session-client @malverdesoftware/ui
+```
+
+Install only the ones the app needs. `session-client` brings in the matching `sealed-envelope`. Releases from 2026-11-13 on are published by GitHub Actions with npm provenance; the first versions (sealed-envelope 0.1.2, relay 0.1.1, session-client 0.1.3, ui 0.1.1) were published by hand, because npm can't use trusted publishing before a package exists.
+
+## Install a packed tarball
+
+Use this for a change that isn't released yet. mPile and mVote still vendor tarballs from before the npm release and will move to the registry versions.
 
 1. In this repository, on the commit you want, run `npm run pack`. It writes four tarballs to `artifacts/`:
    - `malverdesoftware-sealed-envelope-<version>.tgz`
