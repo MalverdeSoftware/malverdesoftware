@@ -12,7 +12,7 @@ Install only the ones the app needs. `session-client` brings in the matching `se
 
 ## Install a packed tarball
 
-Use this for a change that isn't released yet. mPile and mVote still vendor tarballs from before the npm release and will move to the registry versions.
+Use this only to try a change that isn't released yet. mPile and mVote install the npm releases (since 2026-11-13).
 
 1. In this repository, on the commit you want, run `npm run pack`. It writes four tarballs to `artifacts/`:
    - `malverdesoftware-sealed-envelope-<version>.tgz`
