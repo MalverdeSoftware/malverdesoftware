@@ -1,8 +1,7 @@
 {
   "name": "@malverdesoftware/session-client",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "Apache-2.0",
-  "private": true,
   "description": "Session lifecycle for MalverdeSoftware apps: session key files, personal links with passcodes, sealed drafts and submissions.",
   "type": "module",
   "sideEffects": false,
@@ -19,12 +18,26 @@
     "NOTICE"
   ],
   "dependencies": {
-    "@malverdesoftware/sealed-envelope": "0.1.1"
+    "@malverdesoftware/sealed-envelope": "0.1.2"
   },
   "devDependencies": {
-    "@malverdesoftware/relay": "0.1.0"
+    "@malverdesoftware/relay": "0.1.1"
   },
   "scripts": {
     "test": "node --conditions=malverdesoftware-source --disable-warning=ExperimentalWarning --test \"test/*.test.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalverdeSoftware/malverdesoftware.git",
+    "directory": "packages/session-client"
+  },
+  "homepage": "https://github.com/MalverdeSoftware/malverdesoftware/tree/main/packages/session-client#readme",
+  "author": "Valentín Quiroz de la Sierra",
+  "contributors": [
+    "Marissa Ledesma"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
