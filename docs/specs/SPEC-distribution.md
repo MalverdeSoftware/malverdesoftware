@@ -22,7 +22,7 @@ Packaging alone doesn't get there. Today the hosted sites are gated by keys: mVo
 | **Shared packages** | Packed `.tgz` files copied into each app's `vendor/` folder ([CONSUMING.md](../CONSUMING.md)). | n/a |
 
 - **License:** all three are Apache-2.0, copyright The Johns Hopkins University, since 2026-11-12.
-- **Now (2026-11-13):** the repositories are public; the four packages are on npm (sealed-envelope 0.1.2, relay 0.1.1, session-client 0.1.3, ui 0.1.1) and mPile and mVote install them from there; mPile and the shared packages have Zenodo DOIs; the mvote tool's first PyPI release waits on the PyPI organization.
+- **Now (2026-11-13):** the repositories are public; the four packages are on npm (sealed-envelope 0.1.2, relay 0.1.1, session-client 0.1.4, ui 0.1.1) and mPile and mVote install them from there; mVote 0.1.0 and mPile 0.1.0 are released on GitHub; all three repositories have Zenodo DOIs (shared packages 10.5281/zenodo.24184643, mPile 10.5281/zenodo.24184668, mVote 10.5281/zenodo.24206726); the mvote tool's first PyPI upload waits on the PyPI organization and is held by a switch in the release workflow (see Phase 1, item 2).
 
 ## Rules for every release
 
@@ -49,6 +49,8 @@ Packaging alone doesn't get there. Today the hosted sites are gated by keys: mVo
    - Tags are per package, for example `ui-v0.1.1`.
    - mVote and mPile switch from the vendored `.tgz` files to exact registry versions. This also brings the new license footer in `@malverdesoftware/ui` to both apps.
 2. **mVote's tool on PyPI** as `mvote`, installed with `pipx install mvote` or `pip install mvote`. Tag `v0.1.0` releases the tool and the web app together.
+   - The tag was pushed on 2026-11-13 for the GitHub release and the DOI, before the PyPI organization was ready. The upload job in mVote's `cli-release.yml` runs only while the repository variable `PYPI_PUBLISH` is `true`; it was off, so nothing was uploaded.
+   - To upload 0.1.0 once the organization is ready, set `PYPI_PUBLISH` to `true` and run the workflow by hand on the `v0.1.0` tag.
 3. **DOIs**: turn on Zenodo for the three repos and mint the first DOIs with these releases.
 4. **OSPO catalog**: submit mVote, mPile and the shared packages once their repo URLs are public.
 
