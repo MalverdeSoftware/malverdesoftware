@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/sealed-envelope"
+    },
+    {
+      "path": "packages/relay"
+    },
+    {
+      "path": "packages/session-client"
+    },
+    {
+      "path": "packages/ui"
+    }
+  ]
+}

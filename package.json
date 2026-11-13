@@ -1,0 +1,24 @@
+{
+  "name": "malverdesoftware",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "check:environment": "node scripts/check-environment.mjs",
+    "test": "npm run check:environment && npm test --workspaces --if-present",
+    "typecheck": "tsc -p tsconfig.typecheck.json",
+    "build": "tsc -b",
+    "pack": "npm run build && mkdir -p artifacts && npm pack --workspaces --pack-destination artifacts",
+    "relay:dev": "node --disable-warning=ExperimentalWarning packages/relay/scripts/relay-dev.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3"
+  },
+  "license": "Apache-2.0"
+}

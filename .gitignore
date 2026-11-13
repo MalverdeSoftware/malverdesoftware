@@ -1,0 +1,11 @@
+node_modules/
+dist/
+artifacts/
+*.tgz
+*.tsbuildinfo
+.relay-dev/
+.wrangler/
+.DS_Store
+
+# Session key files can open every response in a session. Never commit them.
+*.malverdesoftware-session.md

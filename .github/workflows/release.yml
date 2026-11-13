@@ -1,0 +1,51 @@
+# Release workflow for the shared packages (docs/specs/SPEC-distribution.md).
+# Phase 0: dry run only. It builds, checks and packs the packages and keeps the tarballs as a
+# workflow artifact. Nothing goes to npm. Phase 1 (at the public flip) adds a publish job that uses
+# npm trusted publishing (`id-token: write`, `npm publish --provenance --access public`) and
+# removes `"private": true` from the packages.
+name: Release (dry run)
+on:
+  workflow_dispatch:
+  push:
+    tags: ['*-v*']
+  pull_request:
+    paths:
+      - 'packages/*/package.json'
+      - 'LICENSE'
+      - 'NOTICE'
+      - 'scripts/check-release.mjs'
+      - '.github/workflows/release.yml'
+permissions:
+  contents: read
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Check LICENSE, NOTICE and tarball contents
+        run: node scripts/check-release.mjs
+      - name: Tag matches a package version
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          tag="${GITHUB_REF_NAME}"
+          name="${tag%-v*}"
+          version="${tag##*-v}"
+          actual=$(node -p "require('./packages/${name}/package.json').version")
+          if [ "$actual" != "$version" ]; then
+            echo "Tag $tag says $version, but packages/$name is $actual." >&2
+            exit 1
+          fi
+      - run: mkdir -p artifacts && npm pack --workspaces --pack-destination artifacts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: packages
+          path: artifacts/*.tgz
+          retention-days: 14

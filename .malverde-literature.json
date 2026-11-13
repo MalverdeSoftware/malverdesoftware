@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "generated_by": "malverde-central-library",
+  "project_id": "mv-462c1a6c",
+  "hub": "../research-context-hub",
+  "outputs": {
+    "references/malverde-library.json": "cf577835de6598f42f52092ea5aef2d0ba5a0d836fc5ac69448990cdf8989f0b",
+    "references/malverde-library.bib": "4f44ef1c371a4e6e85b6be0071136b7a54c97965859274863605a2d35005d699"
+  }
+}

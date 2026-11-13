@@ -1,0 +1,30 @@
+{
+  "name": "@malverdesoftware/relay",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "private": true,
+  "description": "Ciphertext-only session relay for MalverdeSoftware apps: a portable Fetch API handler and storage adapters.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "malverdesoftware-source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./node": {
+      "malverdesoftware-source": "./src/node.ts",
+      "types": "./dist/node.d.ts",
+      "default": "./dist/node.js"
+    }
+  },
+  "files": [
+    "dist",
+    "sql",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.ts\""
+  }
+}

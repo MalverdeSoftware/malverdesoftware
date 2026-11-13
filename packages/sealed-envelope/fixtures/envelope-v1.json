@@ -1,0 +1,193 @@
+{
+  "format": "malverdesoftware-envelope-fixtures/v1",
+  "note": "Synthetic vectors from scripts/make-fixtures.mjs. No real keys, people or research data.",
+  "pbkdf2Iterations": 200000,
+  "slots": [
+    {
+      "slotSecret": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8",
+      "passcode": "000000",
+      "slotId": "Je9Hf_3wDZAQ1hA0FLd0XA",
+      "writeToken": "cSv4qozJ5xDUhtQej4lWu0FGwJUWe0YBW9A-tkrxe0I",
+      "draft": {
+        "context": {
+          "app": "mpile",
+          "sessionId": "AAECAwQFBgcICQoLDA0ODw",
+          "channel": "draft",
+          "slotId": "Je9Hf_3wDZAQ1hA0FLd0XA"
+        },
+        "envelope": {
+          "v": 1,
+          "alg": "A256GCM",
+          "iv": "QkOaV6isbo1KiHAV",
+          "ct": "GNcQDBfpBZb-afbmyGm0jXKN7rvCz-Em2ela5fHR_6QCz759reg4OdknH3N5H4W0Tl0TpQtbBnh8q1-s2xnzcbGAEfWvUL0y6vov1RbtSrlNaSX2iarBXz9saM0wQntBFDTkZu9pUg1u0e5ZLqQyGjNjPoStx-tw_TFLS6v23rGWGkLDUiX7sFKhXj83iN10hIScsmpHzxNeH0sKUwswVU07gL2vHVylwtTmws0ZNBrh2kphPC1kLR0dw_NfjTwAXovMgedql9mneAnFThg_I1pAk3pBdYQTCnmZfYKI9FzWFo13n6GTZkvUhNOI7MCK5Y3KXExH146pTziCUiNZYmIaZlO2GEuInVAJ3yHDh7Ea7exOzT0KyMDrm1GnbM3-sfWjfFToTLHV-151fQFPKOQqmlWVzOsjMjejY1beebdz4PPVYpQJ9NIxaaWILEuEmvctmacMuY_AGPDTXQZT_P-Xi0pWe0EqK2JRT9eD2nM2ztAp1RQa5J7XfGNBQcc3H-bB1sLbNhOaCn1WjM_xafx5Wt4qIIDboxKGMysDKeA1poLwLLUALnJ6t0Rkfp6-BDlrWcliDo6SNR7juMNsJ1P_CIkURhJ612qvV-EK4X5BZFx8ReBlDpMy1vZc6UdSonjXl5OKVnf7mo6T8_iHaYNV2h6zgLfVTkhZmU9zndJ3IOkpGeQu-08pF_MXW1nE1mwpK15RpD73BwSn0XPck2QYVAHdSXbePqVRC9i0d00X5LqD7nK_SHhFuObobB-CCb9thOREgbBvGJCLH-AZJPiEcqQ8U2hyJ0gVSsb7mAopYH9vfv-6jM6wRh1uIEsBMJFp91Ndnw9Scb6u_ohrrw5FC1zRCBT--KJz-6XMaW7vxI61TZBdEgJKJA2mshGJuP9xpsGjgyNtr3-qekQOSBuvl7ZoZG-VAk3G4BfGfy1mpocr5FsjWPe2u_inHbZ4lvHlpO-Amu7ehJ32rTcX9yeeel3KKhztPb70u6TWqP23k03Z5HGHF4lewd8638WRiyDNG8RiTEE7072zhP16SIkstzNDx6K_-5gVPTTzndkt8uiNQdFVYDr8sNX6T3HU5VLPaypdetBkbiD3z2Nygff3ke1HaH0BpiTQnu5lLCTe9V5gf0C2vBbYj53g87LD4b5AJZD2CCCv3HKm53eB5cQL_av8HQRpm-7uGXjh6uxEHw8xR5y2Kw6w_FrJ3KkMxsNpAl7CNNoOhI7J9uasSAnoGGQqrdghI9KQOPPkZEpfkN86kh83ldk-0IZLH2XlH5r8-baMHDigm8MRCtVtO7TOyISwnv9stKhzesJNgxOb8TGY3K0Q40GC0HJtrEl-TPba3rxMP0je3bM-7Hq4u5WzEBKZK5o4ct9T6Vzjt4k"
+        },
+        "value": "Synthetic card: ¿Vienes mañana al taller? 🌵"
+      }
+    },
+    {
+      "slotSecret": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8",
+      "passcode": "123456",
+      "slotId": "Je9Hf_3wDZAQ1hA0FLd0XA",
+      "writeToken": "hO5wDaj9hWpvfH8rdI8uSEXmf67o_VDwJpPs0lYHWIA",
+      "draft": {
+        "context": {
+          "app": "mpile",
+          "sessionId": "AAECAwQFBgcICQoLDA0ODw",
+          "channel": "draft",
+          "slotId": "Je9Hf_3wDZAQ1hA0FLd0XA"
+        },
+        "envelope": {
+          "v": 1,
+          "alg": "A256GCM",
+          "iv": "E-1lAuB2TXPhz0cU",
+          "ct": "1QdK4D6top8TS7oGTpFLm0Hb_a0EJ4CVL54htgxEahw4ZUYy9jRVGmyIrqmFl3zki8Iz2TTPrF6RyPVgxATmUm-J-wzz5tfVNMXCynmWsUFmTj4A5d9lO4eNk0Yn6V8rH6Ql_Gvd4PApPeLmujQ7xcjol3Tx5V80hxQ5JnjyF4aqq1K4R4D5OUuuiW6nC35SzKUHkanc3YyU2_OshgC3Ngm9r1ta-CiostNNN_SmII50r-8t7SWjIif1dP07d7e5i2clXmai71iieoHnAKgofLzbrHGAtom5NbP-3k8tUNk6i7EZNSnoQ6tvpQEwoxYZ_0MP3Tl_zkpMyWH_yi1VHhpbvTgXrrffbX6Fe-zaYJfm8W3YVIJpc8VHiv3dhKglO8KtQQVzY6jsReSDCmCpNOELNkt4e63nK5dGAQvPhuWO565cEkwU-eZG8JWY7l-i1YvrlOwPLJQdkqCbDF-wS8ao1diRiwEouy-1s2wSS9Ck0BoXD79ieMfc7IfqfCH8V19D3nVn3UltwsC-rp6AUYidlFR1Hq-yXsjltFpbgK43cl-ak8OFmzwbmm3YRcinl5iX5lyCIPXCeF_LLcQmh1OJmkNda4phUyvFuWm_iy_HeTRH46wLcz8KiG-F_zTB9aMpZ4gU7hYV442qAVK4LuYqP2iGkYtjLp_qraG70q-uqxBu-jv_IYfdJZsA-mCLTEOCH_qxHEBFWMhEWCBiOsCaRrFu3-TXUP_Fntkodk71VgjCA0MaTBkl2hj4UrN41W9zquZ92dXmdViGXD6RXaKSqOPSDa7hHB04jV3n9nlnyt76yvWPYhEVpS8GpFbfB7GCbEudFLlM6BE2bDt2igEFmHh7HPE2E3p8gXjfbq_OghzHROy-iIXGqEXEvtWDAmuMzzXbAcKMoTwyB3AdEHRqyYnpfI9tLtY_RU5FUeQvo_acdr3UXVPtBRYjxtqchW30HZ4Fo1O-Bd1C1ofIfMk-ZDLwSIZOb27I7h-G50OehcjYC7Bb67Mr129AszTDbPfsDFK9WEY09oOU1EoNBCGvNvFX6HwcY-YlrZLD9zgtFodT5UOJIl7SMFDWxFScwu59dKmiXKmaxBYPWLRyqMKyRJnmkDRvM_T4htqEDCod2a7n0fM8OmYcAhEdCv9aLTcfIMAUZPc3aAZXTNmJYaw-HzwiPdhB99p-vxzoMBK9fUf6-Um2FDYuvvBTIvSvTlVGLcA_LQh0mWmqI4_gVpl6wcJCOeHsUuJbp755oElv-EHZLWefWwH-yP1G8pwQqFKvA7-SC_15FsSRy51oioM-hrYHdGsZUaIZIXtVvkj_V9AhAFRhMS1QmCA7Xj0h9_rthWx7ItO0rJ5LR2sCBUWC0YiCSQ7YKiITFQJfkq0"
+        },
+        "value": {
+          "piles": [
+            {
+              "id": "p1",
+              "name": "Ánimo",
+              "description": ""
+            }
+          ],
+          "assignments": {
+            "c1": "p1",
+            "c2": null
+          },
+          "notes": ""
+        }
+      }
+    },
+    {
+      "slotSecret": "QEFCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaW1xdXl8",
+      "passcode": "987654",
+      "slotId": "8qT304ygV3-edN3QioyDig",
+      "writeToken": "Y6ZZ1ZlgoZgT_TWrRfF-GRh_H9KvOzXLB7FaI5POIU4",
+      "draft": {
+        "context": {
+          "app": "mpile",
+          "sessionId": "AAECAwQFBgcICQoLDA0ODw",
+          "channel": "draft",
+          "slotId": "8qT304ygV3-edN3QioyDig"
+        },
+        "envelope": {
+          "v": 1,
+          "alg": "A256GCM",
+          "iv": "LkkBWUuZUHLegrm0",
+          "ct": "zGwtXPdgvDgc33J6oIXqDr-flTd4An6Qdd-b1gSctEQ5Lsff65a8Boveimv2Djfq4-zoGfRuWhO3WOjNe-TqX_yEss3y6PiG4oCsynR0tFBElL60PhFIKCPAmEYpPoHL3xydZcf9-SjldNpU7Y0s3oans9o88am2wtNWn4JaxeQ53eAdEdAbtZqiCRPDqp7-JCZRk8vX1HjsZ7TIco5oWp7qNa3HrKOnqDPu5yxbWSIeDkWYUkZLNTWj0fss-VkUAoWiMFPgAxpJlaRq52lCR6BomKOh2uUr6BZgTAArHR4STn38qQ_jy9RDN9f9kVMLt5gW8mgXUeO9DTR2_EvZRKGFQ5RkVnAlZsQ52PTtXFePooZ_piHygeQYNd_UzZ-ovt0wfj_5P5zcSh_2cuQEBvA9t_HmRX_TvUZHblcz1wyWbRf97SKTNiIV3dMhiiPHr0ycHTzJIyzCkOpIv0RsNIhEFbD4-97N6AIj-Hw6aNhGFKgL0ml3EQS1Pt157P0zm10xUVQb5qmAGOh3r6pevShXtbJBSAwHAPRPp08J8M-KZGuuH-bBybMUCl1UHfFr02ZcbMrdGG_g6Y7n9AHRRNJl_lNz40Z_pIdZDmR55FFbrsvt6vRAWalQw3HWiwnjIU3zETz_C-9e0ILaaPZQHu-961byz7H6uBqgYLXT4UBMy2-xLJg-e9MtNiltDohcIqIlXCRmArJEBDD_0HBVLXzBHl6pOp6hEGVgg19OV9RRWq9Wwlw0Kv1bLrJiVT-guAsraE8yVsN4H_s7_6AHLCUyO_v0bAIMGT9hrQnVc5uBOx65GekQfD9JoP3hmGPB0212-8SJb7TksapjiSRcqDacAR7PcQGeRWL5qCG7WXbafXsRk-hr3rWXORPmuc-xsSBVrLprCRYPMwMWShEKhCTNRVBqIlIguaHCySDV3tH94aBTkQHzxeG8laP9X4FTj6SNPErGrGAMRL_ByahG-_pOOZEQTxcZCTzZjBj4Nxl-w4yF8w_N-DxiYU9iWNcg-AuwSccGimg3tyzl_Lokcmpqt9atS2Xtf2IHmMwHPRdxVY8YuRvt3lJ98RJ_Gk26F_9xjthbrO0S2Zu2JwEYPyqshKLTcOOOwPlNr2GjSdk2RqsK9fN3iuoQy-VLfnNuZR_Trw1QEYcRSnJMbYLiBFBtVVCr4bmd3iIDuYI1VawjpbR93gtrygwxoO1ND4TOZva2uwPRA3J8zleWVJOGNrdZ2lQyli92xBFqGFM05iTnrBYxVkz-ABvchoFNF5h-8Lm8UX64a4_t4SEn9dOyQt_j5hRjJJAo_6D7ToHRtQOrCrrZogxUvhgAge4VbdDSDKahVrmMn7Lqe1sP35nvoD6HhXLA6HQBdhYc-04NGEM"
+        },
+        "value": "Synthetic card: ¿Vienes mañana al taller? 🌵"
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "token": "abc",
+      "hash": "ungWv48Bz-pBQUDeXa4iI7ADYaOWF3qctBD_YfIAFa0"
+    },
+    {
+      "token": "YGFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6e3x9fn8",
+      "hash": "EopC8O_Hh7RxCIGieHPq2V388Tqd-9-cofLwYA7LlAc"
+    },
+    {
+      "token": "gIGCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp8",
+      "hash": "rN4zJ28AG73PbsJ2nR8lHWH0eIqNuKSVrG4BwHaRHGE"
+    }
+  ],
+  "a256gcm": [
+    {
+      "key": "oKGio6SlpqeoqaqrrK2ur7CxsrO0tba3uLm6u7y9vr8",
+      "context": {
+        "app": "mpile",
+        "sessionId": "AAECAwQFBgcICQoLDA0ODw",
+        "channel": "definition"
+      },
+      "envelope": {
+        "v": 1,
+        "alg": "A256GCM",
+        "iv": "eJ12u4riNt9wRcwt",
+        "ct": "UC-b3SXhz-IdjYr5o3qtJM3VkBCIqMGFGFzcvGT-WFK0xRKHP_MgQ6Et7bxu98zUXIIdSOdBLvLiAh-0-xDrUB1oHqZ3S-AVMhGEdlkMvAX5SXDnJ-CExNc4DPGLuO7P-ggQsc2j0KwV4jwU8a5cEoxRhXR2ciTxfpeAa_yea3ux_fubzlLR8XUxhtn_-3m0gd9sCf9XtLzqqfH24XV5V6s19S0uYdkoU_uZSdi3o3Vwkb6Tbq5hE_dmDlb-42XRXxAlziIKKzCDpPaz4QFjZu3pyqtqU1FL0u7l1M5s2BJNZmF_gAfEcL_RLiZzoARJMut28cbEtZ2-eJkRk2Ky8-To5FKAxjMID6_XnYDF2_4o3eCCRt64JR2q2-BoCblKmkqu3-2epJhdMOWP2v6YOQtaHavSc6Y6GUpByOnlAhF29wPaJfLj5zXenmrnOPOVk3cSClrsvV3Oic5tJOLcZty4XkBxPufIkscJthanFn7bxfdMSqqn3X0acpZTmNdmtf2Imkmj-EtxrLVOmyRB_DxU6J4axw3EfaOZ3-cAiF_onUVfIcqDzI2qbfbHa42Qd4OxxhpPqJBI7qgdtjV9NElQYWHI0CV7yWbmS0CrzKG8K8OpRkSSUGZ26C2D3TmCX1ljZH4NKwEENmhq2rAmSqlxXaRelaqZoxZwip4oO4WNcnQjmKGr6TUsxHo6MDiJAI_ktS-LL2yGUmCjJNxL13gOYuhXQ1Qj0LlZpmelq1bR7gao8c8NvB0GZk_TAawIcR9XTatSdsZSlq2b1anRWdpfANSmLeiPHwfpbSTKQrsonCEu_8TCeNpke-fS7R5n9kKyc2kgQXsOsExp9Tw3Op7pxnTjDOKSMkQj-sLJnrykxfs0m8DMz2sMl3vUHRenu4K3ksIHX4RF9Zjt2KiIwwdsow6Bp0BIk0uSRV41tGE-qKDDVqo25lqXDspJ1SvD6PYC5UN2LJPRIMTX263Sf9jnULMojinilwMDE2D3H29aU8BBVF7HDACEAuiguIi3XRYtGsAW10WMSOC9WtIvhSM8qhnk70l671i1yxnpoJEPRil9nIDyEiutV1DdkajDD0swzbfvYfwzG4Hp_LbNFkXZXQRgv--HQTXza0oribPBH_up-D4bi4hshheEuLg_6rB3wXejCmCFiUFZmjX1BQ7ltxvnhnvudx8uYpDcp4y64O_8xi6qDXgTWzu3eQQCzW9Lh3ohKzi0xCw7OTNG-lVEkzdixdUJX_ZLpWOg2aeKIuGdunJawD-G-2XOoTlVX1theWkCRiJjWk9e5nelOm8fRXr9tyhj0DTfzU_7c7OKX96ttx5jmze1VB60sz30ckAo63LgYnPBpfjX1Dtpz-QkWS3KIuthdovyexPp7IU"
+      },
+      "value": "Synthetic card: ¿Vienes mañana al taller? 🌵"
+    },
+    {
+      "key": "oKGio6SlpqeoqaqrrK2ur7CxsrO0tba3uLm6u7y9vr8",
+      "context": {
+        "app": "mpile",
+        "sessionId": "AAECAwQFBgcICQoLDA0ODw",
+        "channel": "definition"
+      },
+      "envelope": {
+        "v": 1,
+        "alg": "A256GCM",
+        "iv": "0KKZ7Kjh2BihQ7Cw",
+        "ct": "qcyEROKeRt8OwA5bXBOcoI6AGv9gon6c938QEIzLp2xZKCiGi9piKfVzUzLzVF0h7UNxXX5MIBW-bUyjaIhLFAzzS2ZJoYxq7--hsFCMjgwFHk3C_SEP2TuVfnMWCmKZKAMSEGBJejNGZWbvb1bIqAA8ilZn7VqiRuFUzB0Nu6nsoMsl51X77sYhHiYTQdcUiVM1QXOJSIjeWfHP-eb45bj4unRfXRsKIoqvAapH0iaGLDPIIBA96t7RqNWaojna6HEizDzccR1_XSMp-UK9hIpZctN4YRYZwep9qrfubBL4BmW9X7bccII57jabMzXExWXLYfLN_P9FG8KonKSdsZ57mu7GC1xd-E6JLhBQk9737ImSuHLsWoTyQ1Oa9KtkLeoVbuhg1rbdopoaCcAFufQqhokqidc2j0N92liuFb8WjYbYARR3xmkTzjKtfAThZOeHOy7vE-IbFzHBgKWYWwZF4XXjqXm9U6DYVwy_8-fe5XIIMNP3Nv65uRtURVZNMf9cO8kOARmx1vn0nmnvOMqQejWdS48exQoVSiSqgMLyLINOdM-t8O4qOUxjsZL8nKoPC7hp0FK8fKMJJg2t6BqrIl4bKXtoQPJlBgj-m2Ew8F8rh5xBww-9kiEI-TZkDquVKBTGjbmUkE5u--7Mmmq1S1uDAS0XSg8qkwmiex_B4RPH0IG1MNWuo-nPgBsc5hhJT4QvGRhEgrjFJ33rN12KoDDkh4gvaZkBSGYAvKkH3vTUdd8J7DW27IAOXqNAuRoXnnLUPRmmtjDkRWd1RSQZcXJehVKN8O9UQBfJHE9paU92obc9FdGNRkZV2TTcRsCP1b35Yn4sMD27d2CrMO7M4JDPVqZGbdBf8afPyyGV4I_GbQ88Hm7eKO2q8Eyk6YT1LdnQzNdFyPV4TGjy3mPGxlS7G5T3K4BARVJCWUnsHk9pjf9BUlvBJnAzxEli9iYD3jBPW3avGVU7r8xgf2G5iERp0zvLnQ0JQG_awG_6O0G6dm7-NsvirJrYdZJJmNOfrC_yqA1Z1GmaqkpKhp3kdEjOM8v536Qgf2cRamvsCjxQA4ajiGhtuRHOqGry2Egk0T99_ReYltxEcCWbU0Qs7bqxvSDYtJUHEhh6W4U5W7AkP3wPBYZEjYfCrKsm1HyFtVlKBIoV_aVXDItqGHeaLyTHYtXkACK5JFlEkD2HqZhA1lzBBFBELf_RZtzx2C-d4X6755D3EYq6MkDlXRg-fqFNcMMITETMNRx3qC6m4fJI2MORfvk8PbpKwFC4JZXjA9RmkyPUJfhLNBcvdkGX2-oy8dR_QU_9t2NOIb3CE5AWRCXAYTnJWaP9WYZDtTuDMl6FqUEgEX49qtGNBmbpyK-pfaWzFVXUQVdNQpU"
+      },
+      "value": {
+        "piles": [
+          {
+            "id": "p1",
+            "name": "Ánimo",
+            "description": ""
+          }
+        ],
+        "assignments": {
+          "c1": "p1",
+          "c2": null
+        },
+        "notes": ""
+      }
+    }
+  ],
+  "ecdhEs": [
+    {
+      "publicKey": "BHGtlJgFilBGDy60u27s3Jj50C_1jEWHz6HPutqeCuVAeTXDEKQTgsFEmwAcS2ivO4ageN8PrgEybuZF95YEnsA",
+      "privateKey": "MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgRKbWR58l0lKSTA6wYDUnIakSzSALdJZ-wBuHOopQwfKhRANCAARxrZSYBYpQRg8utLtu7NyY-dAv9YxFh8-hz7rangrlQHk1wxCkE4LBRJsAHEtorzuGoHjfD64BMm7mRfeWBJ7A",
+      "context": {
+        "app": "mpile",
+        "sessionId": "AAECAwQFBgcICQoLDA0ODw",
+        "channel": "submission",
+        "slotId": "8qT304ygV3-edN3QioyDig"
+      },
+      "envelope": {
+        "v": 1,
+        "alg": "ECDH-ES+A256GCM",
+        "epk": "BMjaTO06k819aAxSPAHjJpFmy_s6mAKh9S8ac8q1ksVfQYWWMfiNb-cqoTEbVqIO5qc4bJbY5iDgWldmEfJNQ0U",
+        "iv": "RYDwD8HD-gR6uevQ",
+        "ct": "u5QzIbeaf_jQ4cgSh0fzgYSXv_jqtF8LUJdYOXhf97f43Ee9pEGcjRmCH__5sYRj-T7MQJ4FL39uz7sXmC2_T5LuR4ryWEVpLwGqnlDmIxR4aUr5hGyjm0rfIHBVWb-Yr_bZ9nItmkRM-GgM-1AQBes6nmTgNHy2MPN_YbnGKYmsArUOWtUmbRhS7hmeq8qdozdGyDNGMAxcbFRmennlEyDbrHhPjGGjWHi06X66lTGV3MQi45eLiQ2S4s3-rbJ2NpV2G-askNOLPP9PhuO1xbHg-0p_uf5IAolB6cscp2_abmgrWTshjtAY8zX8XQPFEM3WMCbE4_9XDpy5TYrSXzrT7Jajz-X4rJLKF6Q71jZdErK5ruYt-xbbY7aXqIEiwbOwltjbDNItjICiVLsaSWnjg8wTzjQUXaf-A9h6XL9-k90LiyCib1VkQOiHrpHiFh6ts975nszHOZV6yrzui_ZbyNhVCBhs6QsdzcN2EMyTWSIjRhl0mLlj-wE8oPp7pJF3gIfSE5kAH9A_B5VrxoLUK1Sd4NhKMkDQjt2mY-fpSw-TybjopiKoWX_wu7cZq13nuM_0AZgSnSEmBwPm9R47yeCZ2c8ckZvrH1vRYfFXllh41oiODtBQ06KmLlG0Yh1tS4ejLb-jul2hR5Fnnb5jWPRI4_BaeCeraopoy6UQOxDhZcXX-t-2yJD53KNdXEQnNqlKt7y4ebZIntf-LHabkunILLPk8PGE5tEPvwdgfA1S6zjL1v6xveXZKJulhnOtNf03oyUDlgbG2zr-X9w36NgMcIQgstqpJVnDgvz7cw1tqEr0aefYOs3b6HHj2-kHlxV5abbGWBHv0MTHiHLMKJyHvMeruhP7XDKKvdGjSKkrdYsDcYf-lFMkKAEtUWU9C3N0oudLej9DwDfDUB6-LHYO_tNsdFTEwjr5cTFdu6_y0CZ5_gOIuf9PfZZfpxx-xE0zI6dIIDl2QvWxtiml9N6Su6hEoisTs4381qa8ljtkaCsyrEEOm5xiJe6REGEPhfXqPloPAhRCO0z_0ChrbcdDuFCy5AzjYFEyh02iGu5ObmUPLWlo4oc4G5Gq5i-RfZOwNEf6no1GdUh_2qBSdmjbbLPIvJVs1KXvweDPBmvCV8EzyBT8aDnux8WtJJSa9zZz9Q4mbfJ3WgBaD1iRv0pWHQQtjfaz49vcrg573ZTl18BXbkOhNPaOyWyX9IbhJQNS2JL5IQAW72eguzpJ1vG8IZWX_2p3uzJ9oEogga6QjmnUPeFt8URMow3Bty8O9NzgcIvVhMzyR4OSwVwS_vVQPm5hq5oVpcjvi8CSNTB7Fm6cv4H1Rr7twxdymayajuMvGHAXeDHpwIrQrdER5Tm1-AQHSCKOV_K37xc"
+      },
+      "value": "Synthetic card: ¿Vienes mañana al taller? 🌵"
+    },
+    {
+      "publicKey": "BHGtlJgFilBGDy60u27s3Jj50C_1jEWHz6HPutqeCuVAeTXDEKQTgsFEmwAcS2ivO4ageN8PrgEybuZF95YEnsA",
+      "privateKey": "MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgRKbWR58l0lKSTA6wYDUnIakSzSALdJZ-wBuHOopQwfKhRANCAARxrZSYBYpQRg8utLtu7NyY-dAv9YxFh8-hz7rangrlQHk1wxCkE4LBRJsAHEtorzuGoHjfD64BMm7mRfeWBJ7A",
+      "context": {
+        "app": "mpile",
+        "sessionId": "AAECAwQFBgcICQoLDA0ODw",
+        "channel": "submission",
+        "slotId": "8qT304ygV3-edN3QioyDig"
+      },
+      "envelope": {
+        "v": 1,
+        "alg": "ECDH-ES+A256GCM",
+        "epk": "BExjGyHfuvaBKKEBxjig7jCmX6r5yAki7mZ91596XRVjVP-t9cxcFckPanpEsVXdULPN6XqS2sxL06L74v1Y_hE",
+        "iv": "udCyyUslP62aBB4o",
+        "ct": "Xua_pgVaz1BRXNBHAxRb1EVSWyMthNyKY2vQo69hDpkFlLHFP8-c3QMzLAalg_adXLWcR15pFhLHLKAbQZknIVfQX4a0SJ7vqvsVv0x2c-qHfOr5Bb94iR8PoHh4okE39RcQ5P2BKI256N-3ryHaMQqinbXslCvNWhM3gbK5_TVxBInO35-drRNWbV0dJ-l-JDrYVnYuqa_DhoVlJ61a282vkj1_Ya9KyBiq5otqnyE-nXZMrpKWd4r6puhFmKcp0DlV8Qnb7QS3UC1L8O6TeGnzyxsJlK2RfQ1irTYGO5zfOM9qIDZAGhA3JWtobhQrxrlnfL71XCjm2qTy81ObSzVvkjZlUfpvqs6fbJG77SrBqJ_4O3u3qPrbW04aaR_7ENQmu7oxJT-Odc9fld33mHjS3Tzq9qy8untE4p1CjreNuuv5TsAFFMQEf-pGLtz12Oxg2zNQIg_uJgs_gpouIrefXjAKycX6KVvHnH7yc-_OypMVkQYvMap2H7KQ9D4CtUIM4uoxNc3qMW4iwVgSekzAk_QmUJPKyJPIR9Q6Dw6b9hy18haWlVs0DPHwEcGKel_5f3pCB2O3cLmMBXztKkiKX2fvs8kGrYJZIdur6p_p9zAjjB03HpHhrd548Qv3kGIqPwsOx1mxoMF0bo72A5YrJgJvJnYovjCiA51QUd9wQYMrnib6hlWhWrCUeHWGkksBFvELoVYfaIfGlSs9I4KmIOhgH5J6vpUCMY2G-hOuMRC5mzVBBhvdWOlP_tn-05k8hV0rJgm6OjlGkX9X2ughnGik57L5K414N-F_83jwUanB7CZs9lHOApr__cOQ1D-BQzxADlMug5zSrqWLKKuRfuPpuT89wEbQ2K6FvNM8WJTHMxtA3-vHjQ4xKzIBdRip8mPJXpDFOmBnCvkJL1tMAKIW4loaBcfJUlR7L3ryIRj3EM52PQxsl4QaVOyZaKSlTOmcNxvsc8HyTxtXhi1kEOueOo2niak6UiFSMWBJZwA2947fl9mGnk0MzAYrlOuPfoGYUWTXvOYAEVNZ2X6bmOJ564ZsHOL-qvx_JmL5NruLIoF08ed_2_ZcQNBsWT6BUeY0k79YYNxs5O7TZy3Fqw0yeY1MzH7maaLIt7_kgDbVRmPk-sRzLAwqlcpcI1l5eVF69E_FL1avT9pV0Nc3vS5NVNXHYTSGyNuV5GzhgGylaMS9Z7FXamXHag1usd0e56rtO7s_VNt___8tL71pfyBIInf2oWI2hdo9BIfsUsQj9s8AZOv_08Zlfrram1dgKgkv9ZBkw2ogNw8zZ_W9KpmrqOgaymkx8nBXpUXxXPFR7nKUH-jMhdaa3UpdcXPkklgzLb8lB3nJ0bpaVSElbi3SrPO2i1m1GvUEiHU"
+      },
+      "value": {
+        "piles": [
+          {
+            "id": "p1",
+            "name": "Ánimo",
+            "description": ""
+          }
+        ],
+        "assignments": {
+          "c1": "p1",
+          "c2": null
+        },
+        "notes": ""
+      }
+    }
+  ]
+}

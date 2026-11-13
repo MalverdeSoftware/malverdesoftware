@@ -1,0 +1,10 @@
+# Large source and render files stay local. Scripts, SVGs and notes are tracked.
+*.blend
+*.blend1
+*.jpeg
+*.png
+!exports/**/*.png
+.DS_Store
+logo_v4/relief_maps/
+logo_v4/v1_plastic/
+logo_v4/v2_relief/

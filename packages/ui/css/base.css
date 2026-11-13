@@ -1,0 +1,202 @@
+/* The shared layer over Ring UI: type, page layout, and what Ring has no component for. Colors come from Ring's
+   variables. Import after Mona Sans and Ring's stylesheet. Rules and reasons: docs/specs/SPEC-ui.md. */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* GitHub's typeface, served with the app so no third party sees a request. */
+  --ring-font-family: 'Mona Sans Variable', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', Helvetica, Arial, sans-serif;
+  --ring-border-radius: 8px;
+}
+
+body {
+  margin: 0;
+  background: var(--ring-content-background-color);
+  color: var(--ring-text-color);
+  font-family: var(--ring-font-family);
+  font-size: var(--ring-font-size);
+  line-height: var(--ring-line-height);
+}
+
+/* Frame */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--ring-line-color);
+}
+
+.site-header__brand {
+  font-weight: 600;
+  color: var(--ring-text-color);
+  text-decoration: none;
+}
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding: 1rem;
+  border-top: 1px solid var(--ring-line-color);
+  color: var(--ring-secondary-color);
+  font-size: var(--ring-font-size-smaller);
+}
+
+/* Ring's link color, on pages rendered without its components. */
+a.ring-link {
+  color: var(--ring-link-color);
+  text-decoration: none;
+}
+
+a.ring-link:hover {
+  color: var(--ring-link-hover-color);
+  text-decoration: underline;
+}
+
+/* Text helpers */
+.secondary-text {
+  color: var(--ring-secondary-color);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.prewrap {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* Pages */
+.page-narrow,
+.page-wide {
+  /* Keeps the footer at the bottom of short pages. */
+  min-height: calc(100dvh - 9rem);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.page-narrow {
+  max-width: 36rem;
+}
+
+.page-wide {
+  max-width: 72rem;
+}
+
+.page-narrow h1,
+.page-wide h1 {
+  margin: 0 0 0.75rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.page-narrow h2,
+.page-wide h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.page-narrow p,
+.page-wide p {
+  margin: 0;
+}
+
+.page-narrow > :not(:first-child),
+.page-wide > :not(:first-child) {
+  margin-top: 1rem;
+}
+
+/* A short line of context sits right on top of the title it introduces. */
+.page-narrow > .secondary-text + h1,
+.page-wide > .secondary-text + h1 {
+  margin-top: 0.25rem;
+}
+
+/* Containers */
+.panel {
+  padding: 1rem;
+  border: 1px solid var(--ring-line-color);
+  border-radius: 8px;
+}
+
+.panel > h2,
+.panel > h3 {
+  margin-top: 0;
+}
+
+.stack {
+  display: grid;
+  gap: 1rem;
+}
+
+/* A number or short status in the accent color. */
+.count-badge {
+  flex: none;
+  padding: 0.125rem 0.5rem;
+  border-radius: 6px;
+  background: var(--ring-main-container-light-color);
+  color: var(--ring-main-color);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+
+/* Touch: Ring's largest controls are 32px, sized for a mouse. People tap these on phones, so they get 44px. */
+.touch-button {
+  --ring-button-height: 2.75rem;
+  min-width: 2.75rem;
+  padding-inline: 0.75rem;
+}
+
+/* Under 16px, iOS zooms the whole page whenever a field takes focus. */
+.touch-input input,
+.touch-input textarea {
+  font-size: 1rem;
+}
+
+.touch-input input {
+  height: 2.75rem;
+}
+
+.touch-menu .ring-list-item.ring-list-item {
+  padding-block: 10px;
+  white-space: normal;
+}
+
+/* Ring's autogrow sizes a text box to its content and ignores `rows`, so an empty one would be a single line. */
+textarea {
+  min-height: 4.5rem;
+}
+
+/* Ring's dialog has a desktop minimum width; on a phone it has to fit the screen. */
+.ui-dialog {
+  width: min(32rem, calc(100vw - 2rem));
+  min-width: 0;
+}
+
+.ui-dialog p {
+  margin: 0 0 0.75rem;
+}
+
+/* A grip promises dragging, which a touchscreen doesn't have. Anything draggable needs another way there. */
+@media (hover: none) {
+  .pointer-only {
+    display: none;
+  }
+}

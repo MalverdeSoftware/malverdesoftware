@@ -1,0 +1,3 @@
+# PDFs stay local: copyrighted full texts are never committed.
+*
+!.gitignore

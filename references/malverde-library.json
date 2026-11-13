@@ -1,0 +1,4245 @@
+{
+  "schema_version": 1,
+  "generated_by": "malverde-central-library",
+  "project_id": "mv-462c1a6c",
+  "authority": "../../research-context-hub/library/catalog.json",
+  "content_sha256": "e0a0bfaee29d4e57e6791de62b8593fc4ff22f863b9fe1c0dc308b722d282903",
+  "references": [
+    {
+      "use": {
+        "key": "mv-462c1a6c::abbondanza2008",
+        "project_id": "mv-462c1a6c",
+        "native_id": "abbondanza2008",
+        "citekeys": [
+          "abbondanza2008"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-a7e778a615ef"
+      },
+      "work": {
+        "id": "lit-a7e778a615ef",
+        "metadata": {
+          "title": "La Cuestión Yaqui en el segundo Porfiriato, 1890-1909. Una revisión de la historia oficial",
+          "authors": "Abbondanza, Ermanno",
+          "year": 2008,
+          "type": "journal-article",
+          "container_title": "Signos Históricos",
+          "volume": "10",
+          "issue": "19",
+          "pages": "94-126",
+          "url": "http://www.scielo.org.mx/scielo.php?script=sci_abstract&pid=S1665-44202008000300094&lng=es&nrm=iso&tlng=es"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item XRDPH782",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:02+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::aguiar2019",
+        "project_id": "mv-462c1a6c",
+        "native_id": "aguiar2019",
+        "citekeys": [
+          "aguiar2019"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Narcoculture. Access: metadata only.",
+        "work_id": "lit-995668b7d4ee"
+      },
+      "work": {
+        "id": "lit-995668b7d4ee",
+        "metadata": {
+          "title": "¿A quién le piden los narcos?",
+          "authors": "Aguiar, José Carlos G.",
+          "year": 2019,
+          "doi": "10.29340/en.v2n4.98",
+          "url": "https://doi.org/10.29340/en.v2n4.98",
+          "type": "journal-article",
+          "container_title": "Encartes",
+          "volume": "2",
+          "issue": "4",
+          "pages": "109-144"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.29340/en.v2n4.98",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:16+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::alfaro2004",
+        "project_id": "mv-462c1a6c",
+        "native_id": "alfaro2004",
+        "citekeys": [
+          "alfaro2004"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only, from citing work.",
+        "work_id": "lit-c2c483cf949a"
+      },
+      "work": {
+        "id": "lit-c2c483cf949a",
+        "metadata": {
+          "title": "Malverde",
+          "authors": "Alfaro Bedolla, Leónidas",
+          "year": 2004,
+          "type": "book"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Escripta 2(4), 2020, https://zenodo.org/records/15020495",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:33+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::astorga1995",
+        "project_id": "mv-462c1a6c",
+        "native_id": "astorga1995",
+        "citekeys": [
+          "astorga1995"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Narcoculture. Access: metadata only.",
+        "work_id": "lit-186d0a40645c"
+      },
+      "work": {
+        "id": "lit-186d0a40645c",
+        "metadata": {
+          "title": "Mitología del \"narcotraficante\" en México",
+          "authors": "Astorga Almanza, Luis Alejandro",
+          "year": 1995,
+          "isbn": "9789688563861",
+          "url": "https://openlibrary.org/works/OL3135896W",
+          "type": "book",
+          "publisher": "Plaza y Valdés; UNAM"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL3135896W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:14+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::atondo2024",
+        "project_id": "mv-462c1a6c",
+        "native_id": "atondo2024",
+        "citekeys": [
+          "atondo2024"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Corridos and music. Access: metadata only, from citing work.",
+        "work_id": "lit-4f8dd928b507"
+      },
+      "work": {
+        "id": "lit-4f8dd928b507",
+        "metadata": {
+          "title": "Construcción de la masculinidad sobre Jesús Malverde en la lírica de sus corridos",
+          "authors": "Atondo Morales, Arnoldo",
+          "year": 2024,
+          "type": "thesis",
+          "publisher": "Universidad Autónoma de Sinaloa"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Perea Romo 2026 reference list, https://doi.org/10.29340/en.v9n18.453",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:11+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::banister2011",
+        "project_id": "mv-462c1a6c",
+        "native_id": "banister2011",
+        "citekeys": [
+          "banister2011"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only (Undermind record).",
+        "work_id": "lit-756dcd09b5d3"
+      },
+      "work": {
+        "id": "lit-756dcd09b5d3",
+        "metadata": {
+          "title": "Deluges of grandeur: Water, territory, and power on northwest Mexico’s Río Mayo, 1880-1910",
+          "authors": "Banister, Jeffrey M.",
+          "year": 2011,
+          "type": "journal-article",
+          "container_title": "Water Alternatives",
+          "pages": "35-53",
+          "volume": "4",
+          "issue": "1",
+          "url": "https://www.water-alternatives.org/index.php/alldoc/articles/Vol4/v4issue1/125-a4-1-3/file"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Undermind record, https://www.semanticscholar.org/paper/5849d9ad6eadc400836b08462b65b5758be56f9c",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:52+00:00"
+          },
+          {
+            "source": "https://www.water-alternatives.org/index.php/alldoc/articles/Vol4/v4issue1/125-a4-1-3/file",
+            "reason": "Volume and issue from the journal PDF.",
+            "at": "2026-11-05T21:31:34+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::barreras2025",
+        "project_id": "mv-462c1a6c",
+        "native_id": "barreras2025",
+        "citekeys": [
+          "barreras2025"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-cb873eb60500"
+      },
+      "work": {
+        "id": "lit-cb873eb60500",
+        "metadata": {
+          "title": "An Indigenous Language and Culture Board Game? Serious Play and Yo’eme Language Reclamation",
+          "authors": "Barreras, Cesar A. and Kroskrity, Paul V.",
+          "year": 2025,
+          "doi": "10.17953/a3.4830",
+          "url": "https://doi.org/10.17953/a3.4830",
+          "type": "journal-article",
+          "container_title": "American Indian Culture and Research Journal",
+          "publisher": "California Digital Library (CDL)",
+          "volume": "48",
+          "issue": "1"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.17953/a3.4830",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:42+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::buitimea2016",
+        "project_id": "mv-462c1a6c",
+        "native_id": "buitimea2016",
+        "citekeys": [
+          "buitimea2016"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-5fd0772d7da3"
+      },
+      "work": {
+        "id": "lit-5fd0772d7da3",
+        "metadata": {
+          "title": "Diccionario yaqui de bolsillo: jiak noki-español/español-jiak noki",
+          "authors": "Buitimea Valenzuela, Crescencio and Estrada Fernández, Zarina and Grageda Bustamante, Aarón",
+          "year": 2016,
+          "type": "book",
+          "publisher": "Universidad de Sonora"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item SWAUU2V8",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:02+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::calvoquiros2022",
+        "project_id": "mv-462c1a6c",
+        "native_id": "calvoquiros2022",
+        "citekeys": [
+          "calvoquiros2022"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: partial: search excerpts and Firecrawl extraction of open-access PDF; endnotes not read.",
+        "work_id": "lit-844f193b7e7c"
+      },
+      "work": {
+        "id": "lit-844f193b7e7c",
+        "metadata": {
+          "title": "Jesús Malverde: A Saint of the People, for the People",
+          "authors": "Calvo-Quirós, William A.",
+          "year": 2022,
+          "doi": "10.1093/oso/9780197630228.003.0002",
+          "url": "https://doi.org/10.1093/oso/9780197630228.003.0002",
+          "type": "book-chapter",
+          "container_title": "Undocumented Saints: The Politics of Migrating Devotions",
+          "pages": "32-85",
+          "publisher": "Oxford University Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.1093/oso/9780197630228.003.0002",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:27+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::cantarell2002",
+        "project_id": "mv-462c1a6c",
+        "native_id": "cantarell2002",
+        "citekeys": [
+          "cantarell2002"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only, from citing work.",
+        "work_id": "lit-88c3ad07f6de"
+      },
+      "work": {
+        "id": "lit-88c3ad07f6de",
+        "metadata": {
+          "title": "Malverde y Bernal, el santo y el héroe",
+          "authors": "Cantarell, Melvin",
+          "year": 2002,
+          "type": "book-chapter",
+          "container_title": "Historia de la violencia, criminalidad y narcotráfico en el noroeste de México",
+          "publisher": "Universidad Autónoma de Sinaloa"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:41+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::cazares2013",
+        "project_id": "mv-462c1a6c",
+        "native_id": "cazares2013",
+        "citekeys": [
+          "cazares2013"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: full text (Undermind PDF reader; pp. 207-217).",
+        "work_id": "lit-cddc0fd8cf82"
+      },
+      "work": {
+        "id": "lit-cddc0fd8cf82",
+        "metadata": {
+          "title": "Actores colectivos, acciones y comportamientos sociales en la lucha por la tierra en el norte de Sinaloa, 1860-1940",
+          "authors": "Cázares Aboytes, Pedro",
+          "year": 2013,
+          "doi": "10.35197/rx.09.01.2013.10.pc",
+          "url": "https://doi.org/10.35197/rx.09.01.2013.10.pc",
+          "type": "journal-article",
+          "container_title": "Ra Ximhai",
+          "volume": "9",
+          "issue": "1",
+          "pages": "205-236",
+          "publisher": "Universidad Autónoma Indígena de México"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.35197/rx.09.01.2013.10.pc",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:48+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::civilizar",
+        "project_id": "mv-462c1a6c",
+        "native_id": "civilizar",
+        "citekeys": [
+          "civilizar"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-ca44504148c3"
+      },
+      "work": {
+        "id": "lit-ca44504148c3",
+        "metadata": {
+          "title": "Civilizar, mezclar, deportar y exterminar. Prácticas y discursos de poder alrededor de la guerra del Yaqui (1884-1904)",
+          "type": "thesis",
+          "authors": "López Jáuregui, Lorena",
+          "year": 2015,
+          "publisher": "Universidad Nacional Autónoma de México",
+          "url": "https://repositorio.unam.mx/contenidos/civilizar-mezclar-deportar-y-exterminar-practicas-y-discursos-de-poder-alrededor-de-la-guerra-del-yaqui-1884-1904-326421"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item WESDU6ND",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:08+00:00"
+          },
+          {
+            "source": "UNAM repository citation and thesis list, https://repositorio.unam.mx/contenidos/civilizar-mezclar-deportar-y-exterminar-practicas-y-discursos-de-poder-alrededor-de-la-guerra-del-yaqui-1884-1904-326421; the thesis PDF itself was not opened",
+            "reason": "Author asked on 2026-11-06 to complete the Yaqui territory works so they can be read and linked.",
+            "at": "2026-11-06T12:58:23+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::cortes2007",
+        "project_id": "mv-462c1a6c",
+        "native_id": "cortes2007",
+        "citekeys": [
+          "cortes2007"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only.",
+        "work_id": "lit-7587f3e1457b"
+      },
+      "work": {
+        "id": "lit-7587f3e1457b",
+        "metadata": {
+          "title": "De facineroso ladrón a santo milagroso : el culto a los bandidos en la literatura y la devoción popular",
+          "authors": "Cortés Hernández, Santiago",
+          "year": 2007,
+          "doi": "10.3406/carav.2007.3135",
+          "url": "https://doi.org/10.3406/carav.2007.3135",
+          "type": "journal-article",
+          "container_title": "Caravelle",
+          "volume": "88",
+          "issue": "1",
+          "pages": "11-29"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.3406/carav.2007.3135",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:30+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::cortesaguilar2007",
+        "project_id": "mv-462c1a6c",
+        "native_id": "cortesaguilar2007",
+        "citekeys": [
+          "cortesaguilar2007"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: metadata only, from citing work.",
+        "work_id": "lit-b56dc2d35dea"
+      },
+      "work": {
+        "id": "lit-b56dc2d35dea",
+        "metadata": {
+          "title": "Religiosidad popular. Canonización popular y culto a Jesús Malverde en Culiacán, Sinaloa",
+          "authors": "Cortés Aguilar, Stephanie and Mancillas López, Yollolxochitl",
+          "year": 2007,
+          "type": "thesis",
+          "publisher": "Escuela Nacional de Antropología e Historia"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:56+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::creechan2005",
+        "project_id": "mv-462c1a6c",
+        "native_id": "creechan2005",
+        "citekeys": [
+          "creechan2005"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Narcoculture. Access: metadata only.",
+        "work_id": "lit-2bfeba773f88"
+      },
+      "work": {
+        "id": "lit-2bfeba773f88",
+        "metadata": {
+          "title": "Without God or Law: Narcoculture and Belief in Jesús Malverde",
+          "authors": "Creechan, James H. and De la Herrán Garcia, Jorge",
+          "year": 2005,
+          "doi": "10.1558/rsth.v24i2.5",
+          "url": "https://doi.org/10.1558/rsth.v24i2.5",
+          "type": "journal-article",
+          "container_title": "Religious Studies and Theology",
+          "volume": "24",
+          "issue": "2",
+          "pages": "5-57",
+          "publisher": "Equinox Publishing"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.1558/rsth.v24i2.5",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:12+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::crumrine1977",
+        "project_id": "mv-462c1a6c",
+        "native_id": "crumrine1977",
+        "citekeys": [
+          "crumrine1977"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only.",
+        "work_id": "lit-344c8ebccdee"
+      },
+      "work": {
+        "id": "lit-344c8ebccdee",
+        "metadata": {
+          "title": "The Mayo Indians of Sonora: A People Who Refuse to Die",
+          "authors": "Crumrine, N. Ross",
+          "year": 1977,
+          "isbn": "9780816504732",
+          "url": "https://openlibrary.org/works/OL4340125W",
+          "type": "book",
+          "publisher": "University of Arizona Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL4340125W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:50+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::dahlin2011",
+        "project_id": "mv-462c1a6c",
+        "native_id": "dahlin2011",
+        "citekeys": [
+          "dahlin2011"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Comparative folk saints. Access: metadata only, from citing work.",
+        "work_id": "lit-d23b5fcff6f2"
+      },
+      "work": {
+        "id": "lit-d23b5fcff6f2",
+        "metadata": {
+          "title": "Socio-Economic Indicators and Patron Saints of the Underrepresented: An Analysis of Santa Muerte and Jesus Malverde in Mexico",
+          "authors": "Dahlin-Morfoot, Miranda",
+          "year": 2011,
+          "type": "journal-article",
+          "container_title": "Journal of the Manitoba Anthropology Students’ Association",
+          "issue": "29",
+          "pages": "1-7"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:47+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::degetau2009",
+        "project_id": "mv-462c1a6c",
+        "native_id": "degetau2009",
+        "citekeys": [
+          "degetau2009"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Narcoculture. Access: metadata only, from citing work.",
+        "work_id": "lit-4f054d1ea150"
+      },
+      "work": {
+        "id": "lit-4f054d1ea150",
+        "metadata": {
+          "title": "Malverde y la Santísima: cultos y credos en el México posmoderno",
+          "authors": "Degetau, Jorge",
+          "year": 2009,
+          "type": "journal-article",
+          "container_title": "Metapolítica",
+          "issue": "67",
+          "pages": "20-24"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:22+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::diariocampo8",
+        "project_id": "mv-462c1a6c",
+        "native_id": "diariocampo8",
+        "citekeys": [
+          "diariocampo8"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-6bd368700a52"
+      },
+      "work": {
+        "id": "lit-6bd368700a52",
+        "metadata": {
+          "title": "La tribu yaqui y la defensa de sus derechos territoriales",
+          "year": 2015,
+          "type": "article",
+          "container_title": "Diario de Campo",
+          "issue": "8",
+          "publisher": "Instituto Nacional de Antropología e Historia",
+          "bibtex_fields": {
+            "editor": "López Bárcenas, Francisco",
+            "note": "Whole thematic issue; Francisco López Bárcenas is its academic coordinator (coordinación académica)."
+          },
+          "url": null
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item YSQJSYA9",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:47+00:00"
+          },
+          {
+            "source": "First pages of the PDF in the author Zotero library: colophon of Diario de Campo, tercera época, año 2, núm. 8, mayo-junio de 2015",
+            "reason": "Author asked on 2026-11-06 to complete the Yaqui territory works so they can be read and linked.",
+            "at": "2026-11-06T12:58:20+00:00"
+          },
+          {
+            "source": "Correction on 2026-11-06: the journal URL added earlier the same day could not be confirmed (HTTP 403).",
+            "reason": "Removes an unconfirmed locator from the Diario de Campo 8 record.",
+            "at": "2026-11-06T12:58:55+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::donjuan2020",
+        "project_id": "mv-462c1a6c",
+        "native_id": "donjuan2020",
+        "citekeys": [
+          "donjuan2020"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-2984bd8b0418"
+      },
+      "work": {
+        "id": "lit-2984bd8b0418",
+        "metadata": {
+          "title": "El río Yaqui como elemento aglutinador y articulador de una cultura",
+          "authors": "Donjuan Espinoza, Esperanza and Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "25-39",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17174"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item YGTV3BKR",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:57+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::esquivel2009",
+        "project_id": "mv-462c1a6c",
+        "native_id": "esquivel2009",
+        "citekeys": [
+          "esquivel2009"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only.",
+        "work_id": "lit-59142e7f5213"
+      },
+      "work": {
+        "id": "lit-59142e7f5213",
+        "metadata": {
+          "title": "Jesús Malverde: el santo popular de Sinaloa",
+          "authors": "Esquivel, Manuel",
+          "year": 2009,
+          "isbn": "9786074120103",
+          "url": "https://openlibrary.org/works/OL22791250W",
+          "type": "book",
+          "publisher": "Editorial Jus"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL22791250W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:30+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::estrada2009",
+        "project_id": "mv-462c1a6c",
+        "native_id": "estrada2009",
+        "citekeys": [
+          "estrada2009"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-208770d51bcf"
+      },
+      "work": {
+        "id": "lit-208770d51bcf",
+        "metadata": {
+          "title": "El discurso de los pascolas entre los yaqui de Sonora, México",
+          "authors": "Estrada Fernández, Zarina and Silva Encinas, Manuel Carlos and Buitimea, Crescencio",
+          "year": 2011,
+          "doi": "10.19130/iifl.tlalocan.2009.203",
+          "url": "https://doi.org/10.19130/iifl.tlalocan.2009.203",
+          "type": "journal-article",
+          "container_title": "Tlalocan",
+          "publisher": "Instituto de Investigaciones Filologicas",
+          "volume": "16"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.19130/iifl.tlalocan.2009.203",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:40+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::evers1987",
+        "project_id": "mv-462c1a6c",
+        "native_id": "evers1987",
+        "citekeys": [
+          "evers1987"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only.",
+        "work_id": "lit-7322a502f832"
+      },
+      "work": {
+        "id": "lit-7322a502f832",
+        "metadata": {
+          "title": "Yaqui Deer Songs / Maso Bwikam: A Native American Poetry",
+          "authors": "Evers, Larry and Molina, Felipe S.",
+          "year": 1987,
+          "isbn": "9780816509959",
+          "url": "https://openlibrary.org/works/OL15938581W",
+          "type": "book",
+          "publisher": "University of Arizona Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL15938581W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:56+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::fabian2016",
+        "project_id": "mv-462c1a6c",
+        "native_id": "fabian2016",
+        "citekeys": [
+          "fabian2016"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: metadata only, from citing work.",
+        "work_id": "lit-3dc181273602"
+      },
+      "work": {
+        "id": "lit-3dc181273602",
+        "metadata": {
+          "title": "Preservación y renovación de festividades en la religiosidad popular: La familia malverdista",
+          "authors": "Fabián Jiménez, Arturo",
+          "year": 2016,
+          "type": "thesis",
+          "publisher": "Universidad Autónoma de Sinaloa"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:51+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::fabian2018",
+        "project_id": "mv-462c1a6c",
+        "native_id": "fabian2018",
+        "citekeys": [
+          "fabian2018"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: metadata only.",
+        "work_id": "lit-dff2060c1356"
+      },
+      "work": {
+        "id": "lit-dff2060c1356",
+        "metadata": {
+          "title": "Organizaciones religiosas emergentes: la familia malverdista",
+          "authors": "Fabián Jiménez, Arturo",
+          "year": 2018,
+          "doi": "10.35197/rx.14.01.2018.03.aj",
+          "url": "https://doi.org/10.35197/rx.14.01.2018.03.aj",
+          "type": "journal-article",
+          "container_title": "Ra Ximhai",
+          "volume": "14",
+          "issue": "1",
+          "pages": "41-61",
+          "publisher": "Universidad Autónoma Indígena de México"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.35197/rx.14.01.2018.03.aj",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:49+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::fabian2025",
+        "project_id": "mv-462c1a6c",
+        "native_id": "fabian2025",
+        "citekeys": [
+          "fabian2025"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: full text (Undermind PDF reader; pp. 339, 340, 347).",
+        "work_id": "lit-056d8df01c53"
+      },
+      "work": {
+        "id": "lit-056d8df01c53",
+        "metadata": {
+          "title": "La dinámica de los bienes de salvación en el culto a Jesús Malverde: un ensayo fotográfico sobre la religiosidad popular en México",
+          "authors": "Fabián Jiménez, Arturo",
+          "year": 2025,
+          "doi": "10.29340/en.v8n16.435",
+          "url": "https://doi.org/10.29340/en.v8n16.435",
+          "type": "journal-article",
+          "container_title": "Encartes",
+          "volume": "8",
+          "issue": "16",
+          "pages": "337-371"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:26+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::felger2024",
+        "project_id": "mv-462c1a6c",
+        "native_id": "felger2024",
+        "citekeys": [
+          "felger2024"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from firecrawl, 2026-11-05. Not screened or read.",
+        "work_id": "lit-20a9d78accee"
+      },
+      "work": {
+        "id": "lit-20a9d78accee",
+        "metadata": {
+          "title": "Plants and Animals in the Yoeme World",
+          "authors": "Felger, Richard S. and Molina, Felipe S.",
+          "year": 2024,
+          "type": "book",
+          "url": "https://benjamintwilder.com/wp-content/uploads/publications/E7_Felger%20&%20Molina%202024_Plants%20and%20Animals%20in%20the%20Yoeme%20World.pdf"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Search excerpt of the PDF",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:10+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::figueroa1992",
+        "project_id": "mv-462c1a6c",
+        "native_id": "figueroa1992",
+        "citekeys": [
+          "figueroa1992"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only.",
+        "work_id": "lit-c87b82f82b4d"
+      },
+      "work": {
+        "id": "lit-c87b82f82b4d",
+        "metadata": {
+          "title": "Organización de la identidad étnica y persistencia cultural entre los yaquis y los mayos",
+          "authors": "Figueroa Valenzuela, Alejandro",
+          "year": 1992,
+          "doi": "10.24201/es.1992v10n28.928",
+          "url": "https://doi.org/10.24201/es.1992v10n28.928",
+          "type": "journal-article",
+          "container_title": "Estudios Sociológicos",
+          "volume": "10",
+          "issue": "28",
+          "pages": "127-148",
+          "publisher": "El Colegio de México"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.24201/es.1992v10n28.928",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:53+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::flores2006",
+        "project_id": "mv-462c1a6c",
+        "native_id": "flores2006",
+        "citekeys": [
+          "flores2006"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Corridos and music. Access: first four pages read directly.",
+        "work_id": "lit-7a46fba9a6a2"
+      },
+      "work": {
+        "id": "lit-7a46fba9a6a2",
+        "metadata": {
+          "title": "Jesús Malverde: plegarias y corridos",
+          "authors": "Flores, Enrique and González, Raúl Eduardo",
+          "year": 2006,
+          "url": "http://www.rlp.culturaspopulares.org/textos%20VI-1/03-Flores.pdf",
+          "type": "journal-article",
+          "container_title": "Revista de Literaturas Populares",
+          "volume": "6",
+          "issue": "1",
+          "pages": "32-60"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "http://www.rlp.culturaspopulares.org/textos%20VI-1/03-Flores.pdf",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:02+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::flores2007",
+        "project_id": "mv-462c1a6c",
+        "native_id": "flores2007",
+        "citekeys": [
+          "flores2007"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Corridos and music. Access: metadata only.",
+        "work_id": "lit-9219785fb7e3"
+      },
+      "work": {
+        "id": "lit-9219785fb7e3",
+        "metadata": {
+          "title": "Malverde : exvotos y corridos (en las voces de cantores sinaloenses)",
+          "authors": "Flores, Enrique and González, Raúl Eduardo",
+          "year": 2007,
+          "doi": "10.3406/carav.2007.3140",
+          "url": "https://doi.org/10.3406/carav.2007.3140",
+          "type": "journal-article",
+          "container_title": "Caravelle",
+          "volume": "88",
+          "issue": "1",
+          "pages": "111-138"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.3406/carav.2007.3140",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:04+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::flores2011",
+        "project_id": "mv-462c1a6c",
+        "native_id": "flores2011",
+        "citekeys": [
+          "flores2011"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Corridos and music. Access: metadata only.",
+        "work_id": "lit-e1c876a56d8a"
+      },
+      "work": {
+        "id": "lit-e1c876a56d8a",
+        "metadata": {
+          "title": "Malverde. Exvotos y corridos",
+          "authors": "",
+          "year": 2011,
+          "doi": "10.22201/iifl.9786070227004p.2011",
+          "url": "https://doi.org/10.22201/iifl.9786070227004p.2011",
+          "type": "book",
+          "publisher": "Instituto de Investigaciones Filológicas, UNAM",
+          "bibtex_fields": {
+            "editor": "Flores, Enrique and González, Raúl Eduardo"
+          }
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.22201/iifl.9786070227004p.2011",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:05+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::garcia2017",
+        "project_id": "mv-462c1a6c",
+        "native_id": "garcia2017",
+        "citekeys": [
+          "garcia2017"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only, from citing work.",
+        "work_id": "lit-7ebf34c3afdc"
+      },
+      "work": {
+        "id": "lit-7ebf34c3afdc",
+        "metadata": {
+          "title": "La leyenda de Malverde. El bandido milagroso",
+          "authors": "García, Luis Antonio",
+          "year": 2017,
+          "type": "book",
+          "publisher": "Seminario de Cultura Mexicana, corresponsalía Mocorito"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Perea Romo 2026 reference list, https://doi.org/10.29340/en.v9n18.453",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:38+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::garcia2023",
+        "project_id": "mv-462c1a6c",
+        "native_id": "garcia2023",
+        "citekeys": [
+          "garcia2023"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-df581d7a5ad6"
+      },
+      "work": {
+        "id": "lit-df581d7a5ad6",
+        "metadata": {
+          "title": "La recuperación de la memoria de la mujer yaqui: una mirada a la solidaridad, la colectividad y la agencia",
+          "authors": "García Rivera, Edna Lucía and Universidad de Sonora",
+          "year": 2023,
+          "doi": "10.24275/uam/izt/dcsh/alteridades/2023v33n65/garcia",
+          "url": "https://doi.org/10.24275/uam/izt/dcsh/alteridades/2023v33n65/garcia",
+          "type": "journal-article",
+          "container_title": "Alteridades",
+          "publisher": "Universidad Autonoma Metropolitana",
+          "volume": "33",
+          "issue": "65",
+          "pages": "9-19"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.24275/uam/izt/dcsh/alteridades/2023v33n65/garcia",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:41+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::gaytan2023",
+        "project_id": "mv-462c1a6c",
+        "native_id": "gaytan2023",
+        "citekeys": [
+          "gaytan2023"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Comparative folk saints. Access: metadata only, from citing work.",
+        "work_id": "lit-04072eb8e233"
+      },
+      "work": {
+        "id": "lit-04072eb8e233",
+        "metadata": {
+          "title": "Acto icónico de los ángeles marginales. Cultos religiosos y violencia en México en perspectiva comparada: Santa Muerte, Angelito Negro y Jesús Malverde",
+          "authors": "Gaytán Alcalá, Felipe and Valtierra Zamudio, Jorge",
+          "year": 2023,
+          "type": "book-chapter",
+          "container_title": "Pesquisas sobre religión: Pensamientos, reflexiones y conceptos",
+          "publisher": "Universidad Juárez Autónoma de Tabasco"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:46+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::gidi2021",
+        "project_id": "mv-462c1a6c",
+        "native_id": "gidi2021",
+        "citekeys": [
+          "gidi2021"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only.",
+        "work_id": "lit-d270f9d4079a"
+      },
+      "work": {
+        "id": "lit-d270f9d4079a",
+        "metadata": {
+          "title": "De bandolero a santo: rumor y arte dramático en Óscar Liera",
+          "authors": "Gidi Blanchet, Claudia Elisa",
+          "year": 2021,
+          "doi": "10.35424/rha.161.2021.1060",
+          "url": "https://doi.org/10.35424/rha.161.2021.1060",
+          "type": "journal-article",
+          "container_title": "Revista de Historia de América",
+          "issue": "161",
+          "pages": "415-434"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.35424/rha.161.2021.1060",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:29+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::gill1983",
+        "project_id": "mv-462c1a6c",
+        "native_id": "gill1983",
+        "citekeys": [
+          "gill1983"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only.",
+        "work_id": "lit-5bfd5b9ec247"
+      },
+      "work": {
+        "id": "lit-5bfd5b9ec247",
+        "metadata": {
+          "title": "La conquista del Valle del Fuerte",
+          "authors": "Gill, Mario",
+          "year": 1983,
+          "url": "https://openlibrary.org/works/OL4361229W",
+          "type": "book",
+          "publisher": "Universidad Autónoma de Sinaloa"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL4361229W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:49+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::gomezmichel2009",
+        "project_id": "mv-462c1a6c",
+        "native_id": "gomezmichel2009",
+        "citekeys": [
+          "gomezmichel2009"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only, from citing work.",
+        "work_id": "lit-5fe885b6f375"
+      },
+      "work": {
+        "id": "lit-5fe885b6f375",
+        "metadata": {
+          "title": "Jesús Malverde: un santo maldito en los límites de la modernidad",
+          "authors": "Gómez Michel, Gerardo",
+          "year": 2009,
+          "type": "journal-article",
+          "container_title": "Webzine Translatina",
+          "issue": "8",
+          "pages": "133-139"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:37+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::gomezmichel2014",
+        "project_id": "mv-462c1a6c",
+        "native_id": "gomezmichel2014",
+        "citekeys": [
+          "gomezmichel2014"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: abstract level (via Undermind summary).",
+        "work_id": "lit-eaee06150aff"
+      },
+      "work": {
+        "id": "lit-eaee06150aff",
+        "metadata": {
+          "title": "The Cult of Jesús Malverde: Crime and Sanctity as Elements of a Heterogeneous Modernity",
+          "authors": "Gómez Michel, Gerardo and Park, Jungwon",
+          "year": 2014,
+          "doi": "10.1177/0094582x13509787",
+          "url": "https://doi.org/10.1177/0094582X13509787",
+          "type": "journal-article",
+          "container_title": "Latin American Perspectives",
+          "volume": "41",
+          "issue": "2",
+          "pages": "202-214",
+          "publisher": "SAGE Publications"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.1177/0094582X13509787",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:44+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::gray2026",
+        "project_id": "mv-462c1a6c",
+        "native_id": "gray2026",
+        "citekeys": [
+          "gray2026"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Press and popular sources. Access: Firecrawl extraction of article.",
+        "work_id": "lit-28201e01d3bd"
+      },
+      "work": {
+        "id": "lit-28201e01d3bd",
+        "metadata": {
+          "title": "Jesús Malverde and the Myth of Mexico’s ‘Narco Saint’",
+          "authors": "Gray, Geoffrey",
+          "year": 2026,
+          "url": "https://www.altaonline.com/dispatches/letters/a71142943/jesus-malverde-narco-saint-california-mexico/",
+          "type": "article",
+          "container_title": "Alta Journal"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://www.altaonline.com/dispatches/letters/a71142943/jesus-malverde-narco-saint-california-mexico/",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:59+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::graziano2007",
+        "project_id": "mv-462c1a6c",
+        "native_id": "graziano2007",
+        "citekeys": [
+          "graziano2007"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Comparative folk saints. Access: metadata only.",
+        "work_id": "lit-1ed0dd56a710"
+      },
+      "work": {
+        "id": "lit-1ed0dd56a710",
+        "metadata": {
+          "title": "Cultures of Devotion: Folk Saints of Spanish America",
+          "authors": "Graziano, Frank",
+          "year": 2007,
+          "isbn": "9780195171303",
+          "url": "https://openlibrary.org/works/OL1951112W",
+          "type": "book",
+          "publisher": "Oxford University Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL1951112W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:40+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::griffith1967",
+        "project_id": "mv-462c1a6c",
+        "native_id": "griffith1967",
+        "citekeys": [
+          "griffith1967"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-8fb680bc4767"
+      },
+      "work": {
+        "id": "lit-8fb680bc4767",
+        "metadata": {
+          "title": "Rio Mayo Pascola masks: a study in style",
+          "authors": "Griffith, James S.",
+          "year": 1967,
+          "type": "thesis",
+          "publisher": "University of Arizona",
+          "url": "https://repository.arizona.edu/handle/10150/551909"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item EKGRZSDH",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:49+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::griffith2003",
+        "project_id": "mv-462c1a6c",
+        "native_id": "griffith2003",
+        "citekeys": [
+          "griffith2003"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only.",
+        "work_id": "lit-a00eeacf93ea"
+      },
+      "work": {
+        "id": "lit-a00eeacf93ea",
+        "metadata": {
+          "title": "Folk Saints of the Borderlands: Victims, Bandits, and Healers",
+          "authors": "Griffith, James S.",
+          "year": 2003,
+          "isbn": "9781887896511",
+          "url": "https://openlibrary.org/works/OL3744132W",
+          "type": "book",
+          "publisher": "Rio Nuevo Publishers"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL3744132W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:29+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::guerrero2022",
+        "project_id": "mv-462c1a6c",
+        "native_id": "guerrero2022",
+        "citekeys": [
+          "guerrero2022"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-38f4674e3f9d"
+      },
+      "work": {
+        "id": "lit-38f4674e3f9d",
+        "metadata": {
+          "title": "Cajeme: dos tiempos, dos historias",
+          "authors": "Guerrero de la Llata, Patricia del Carmen",
+          "year": 2022,
+          "type": "journal-article",
+          "container_title": "Revista de Humanidades",
+          "issue": "47",
+          "pages": "63-84",
+          "url": "https://www.redalyc.org/journal/3212/321274276003/html/"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item 8ZMTLABH",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:01+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::guzman2023",
+        "project_id": "mv-462c1a6c",
+        "native_id": "guzman2023",
+        "citekeys": [
+          "guzman2023"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: metadata only.",
+        "work_id": "lit-d5e740d00973"
+      },
+      "work": {
+        "id": "lit-d5e740d00973",
+        "metadata": {
+          "title": "Visita a la capilla de Jesús Malverde: entre lo oscuro, lo religioso y lo turístico",
+          "authors": "Guzmán Melgar, Sandra Zulema and Flores Gamboa, Silvestre",
+          "year": 2023,
+          "doi": "10.47557/pzoh1175",
+          "url": "https://doi.org/10.47557/pzoh1175",
+          "type": "journal-article",
+          "container_title": "Dimensiones Turísticas",
+          "volume": "7",
+          "pages": "1-23",
+          "publisher": "Academia Mexicana de Investigación Turística"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.47557/pzoh1175",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:53+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::hernandez2017",
+        "project_id": "mv-462c1a6c",
+        "native_id": "hernandez2017",
+        "citekeys": [
+          "hernandez2017"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-cadc78fea9b4"
+      },
+      "work": {
+        "id": "lit-cadc78fea9b4",
+        "metadata": {
+          "title": "Kauhomem, Torokoyorim and Pacificos: Three Groups of the Yoeme Tribe of the Rio Yaqui, Sonora, Mexico, in the Battle for Independence and Survival Throughout the Porfiriato and the Post-Mexican Revolutionary Period, 1890-1932",
+          "authors": "Hernandez, Juan Alvaro Avila",
+          "year": 2017,
+          "type": "phdthesis",
+          "publisher": "University of California, Davis"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item TATYQZBK",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:44+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::hidalgo2007",
+        "project_id": "mv-462c1a6c",
+        "native_id": "hidalgo2007",
+        "citekeys": [
+          "hidalgo2007"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Narcoculture. Access: metadata only, from citing work.",
+        "work_id": "lit-6099ea689c20"
+      },
+      "work": {
+        "id": "lit-6099ea689c20",
+        "metadata": {
+          "title": "Aproximaciones desde la (post)modernidad a la fenomenología de Malverde, el santo de los narcotraficantes",
+          "authors": "Hidalgo Solís, Marcela",
+          "year": 2007,
+          "url": "https://biblat.unam.mx/hevila/HumanitasRevistadeinvestigacion/2007/vol4/no4/2.pdf",
+          "type": "journal-article",
+          "container_title": "Humanitas",
+          "volume": "4",
+          "issue": "4",
+          "pages": "19-37"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:18+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::hudehart1974",
+        "project_id": "mv-462c1a6c",
+        "native_id": "hudehart1974",
+        "citekeys": [
+          "hudehart1974"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only.",
+        "work_id": "lit-f867b090a9c3"
+      },
+      "work": {
+        "id": "lit-f867b090a9c3",
+        "metadata": {
+          "title": "Development and Rural Rebellion: Pacification of the Yaquis in the Late Porfiriato",
+          "authors": "Hu-DeHart, Evelyn",
+          "year": 1974,
+          "doi": "10.1215/00182168-54.1.72",
+          "url": "https://doi.org/10.1215/00182168-54.1.72",
+          "type": "journal-article",
+          "container_title": "Hispanic American Historical Review",
+          "volume": "54",
+          "issue": "1",
+          "pages": "72-93",
+          "publisher": "Duke University Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.1215/00182168-54.1.72",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:54+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::hudehart1984",
+        "project_id": "mv-462c1a6c",
+        "native_id": "hudehart1984",
+        "citekeys": [
+          "hudehart1984"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only (title and year from Undermind; publisher unconfirmed).",
+        "work_id": "lit-28f17b281158"
+      },
+      "work": {
+        "id": "lit-28f17b281158",
+        "metadata": {
+          "title": "Yaqui Resistance and Survival: The Struggle for Land and Autonomy, 1821-1910",
+          "authors": "Hu-DeHart, Evelyn",
+          "year": 1984,
+          "type": "book",
+          "publisher": "University of Wisconsin Press",
+          "isbn": "9780299096601"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Undermind lookup, review DOI 10.2307/969667",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:54+00:00"
+          },
+          {
+            "source": "https://www.biblio.com/9780299096601",
+            "reason": "Publisher and ISBN from bookseller records of the 1984 first edition; publisher confirmed by University of Wisconsin Press reissue record.",
+            "at": "2026-11-05T21:31:33+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::irwin2007",
+        "project_id": "mv-462c1a6c",
+        "native_id": "irwin2007",
+        "citekeys": [
+          "irwin2007"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Comparative folk saints. Access: metadata only.",
+        "work_id": "lit-5e26d74ce404"
+      },
+      "work": {
+        "id": "lit-5e26d74ce404",
+        "metadata": {
+          "title": "Bandits, Captives, Heroines, and Saints: Cultural Icons of Mexico’s Northwest Borderlands",
+          "authors": "Irwin, Robert McKee",
+          "year": 2007,
+          "isbn": "9780816648566",
+          "url": "https://openlibrary.org/works/OL5955074W",
+          "type": "book",
+          "publisher": "University of Minnesota Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL5955074W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:41+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::jonsdottir2006",
+        "project_id": "mv-462c1a6c",
+        "native_id": "jonsdottir2006",
+        "citekeys": [
+          "jonsdottir2006"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Corridos and music. Access: metadata only, from citing work.",
+        "work_id": "lit-67d550f418c4"
+      },
+      "work": {
+        "id": "lit-67d550f418c4",
+        "metadata": {
+          "title": "De bandolero a ejemplo moral: los corridos sobre Jesús Malverde, el santo amante de la música",
+          "authors": "Jónsdóttir, Kristín Guðrún",
+          "year": 2006,
+          "type": "journal-article",
+          "container_title": "Studies in Latin American Popular Culture",
+          "volume": "25",
+          "pages": "25-48",
+          "url": "https://iris.landsbokasafn.is/en/publications/de-bandolero-a-ejemplo-moral-los-corridos-sobre-jes%C3%BAs-malverde-el/"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:07+00:00"
+          },
+          {
+            "source": "https://www.jstor.org/stable/4490682",
+            "reason": "Article listed in the contents of the journal issue; author and year from the University of Iceland record.",
+            "at": "2026-11-05T21:31:35+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::jonsdottir2014",
+        "project_id": "mv-462c1a6c",
+        "native_id": "jonsdottir2014",
+        "citekeys": [
+          "jonsdottir2014"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only.",
+        "work_id": "lit-6e3175e2575f"
+      },
+      "work": {
+        "id": "lit-6e3175e2575f",
+        "metadata": {
+          "title": "Bandoleros santificados: las devociones a Jesús Malverde y Pancho Villa",
+          "authors": "Jónsdóttir, Kristín Guðrún",
+          "year": 2014,
+          "isbn": "9786074791433",
+          "url": "https://libreria.colef.mx/detalle.aspx?id=7519",
+          "type": "book",
+          "publisher": "El Colegio de la Frontera Norte; El Colegio de San Luis; El Colegio de Michoacán"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://iris.hi.is/en/publications/bandoleros-santificados-las-devociones-a-jes%C3%BAs-malverde-y-pancho-/",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:33+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::king2022",
+        "project_id": "mv-462c1a6c",
+        "native_id": "king2022",
+        "citekeys": [
+          "king2022"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Comparative folk saints. Access: metadata only.",
+        "work_id": "lit-8ed8eb93da9b"
+      },
+      "work": {
+        "id": "lit-8ed8eb93da9b",
+        "metadata": {
+          "title": "Borderland (Narco) Folk Saints and Texas Media",
+          "authors": "King, Amy J.",
+          "year": 2022,
+          "doi": "10.3390/journalmedia3020025",
+          "url": "https://doi.org/10.3390/journalmedia3020025",
+          "type": "journal-article",
+          "container_title": "Journalism and Media",
+          "volume": "3",
+          "issue": "2",
+          "pages": "348-361",
+          "publisher": "MDPI"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.3390/journalmedia3020025",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:44+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::kurath1966",
+        "project_id": "mv-462c1a6c",
+        "native_id": "kurath1966",
+        "citekeys": [
+          "kurath1966"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-68fbeca0bdec"
+      },
+      "work": {
+        "id": "lit-68fbeca0bdec",
+        "metadata": {
+          "title": "The Kinetic Ecology of Yaqui Dance Instrumentation",
+          "authors": "Kurath, Gertrude P.",
+          "year": 1966,
+          "doi": "10.2307/924183",
+          "url": "https://doi.org/10.2307/924183",
+          "type": "journal-article",
+          "container_title": "Ethnomusicology",
+          "publisher": "University of Illinois Press",
+          "volume": "10",
+          "issue": "1",
+          "pages": "28"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.2307/924183",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:41+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::lazcano1992",
+        "project_id": "mv-462c1a6c",
+        "native_id": "lazcano1992",
+        "citekeys": [
+          "lazcano1992"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only, from citing work.",
+        "work_id": "lit-a3d015b05145"
+      },
+      "work": {
+        "id": "lit-a3d015b05145",
+        "metadata": {
+          "title": "Una vida en la vida sinaloense. Memorias de Manuel Lazcano y Ochoa",
+          "authors": "Lazcano y Ochoa, Manuel and Córdova, Nery",
+          "year": 1992,
+          "type": "book",
+          "publisher": "Universidad de Occidente"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Perea Romo 2026 reference list, https://doi.org/10.29340/en.v9n18.453",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:39+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::liera1984",
+        "project_id": "mv-462c1a6c",
+        "native_id": "liera1984",
+        "citekeys": [
+          "liera1984"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only, from citing work.",
+        "work_id": "lit-3004afa2fe3b"
+      },
+      "work": {
+        "id": "lit-3004afa2fe3b",
+        "metadata": {
+          "title": "El jinete de la divina providencia",
+          "authors": "Liera, Óscar",
+          "year": 1984,
+          "type": "book"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Perea Romo 2020, https://zenodo.org/records/15020495",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:31+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::lizarraga1998",
+        "project_id": "mv-462c1a6c",
+        "native_id": "lizarraga1998",
+        "citekeys": [
+          "lizarraga1998"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only, from citing works.",
+        "work_id": "lit-d1e85569b6af"
+      },
+      "work": {
+        "id": "lit-d1e85569b6af",
+        "metadata": {
+          "title": "Jesús Malverde: el ángel de los pobres",
+          "authors": "Lizárraga Hernández, Arturo",
+          "year": 1998,
+          "type": "journal-article",
+          "container_title": "Arenas",
+          "issue": "1",
+          "publisher": "Universidad Autónoma de Sinaloa"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:36+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::lopez2021",
+        "project_id": "mv-462c1a6c",
+        "native_id": "lopez2021",
+        "citekeys": [
+          "lopez2021"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Press and popular sources. Access: Firecrawl extraction of article.",
+        "work_id": "lit-34a367d6934d"
+      },
+      "work": {
+        "id": "lit-34a367d6934d",
+        "metadata": {
+          "title": "\"Malverde existe, nos acompaña\": Historiador Gilberto López Alanís",
+          "authors": "López, Mirella",
+          "year": 2021,
+          "url": "https://www.debate.com.mx/cultura/Malverde-existe-nos-acompana-Historiador-Gilberto-Lopez-Alanis-20210926-0163.html",
+          "type": "article",
+          "container_title": "El Debate"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://www.debate.com.mx/cultura/Malverde-existe-nos-acompana-Historiador-Gilberto-Lopez-Alanis-20210926-0163.html",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:57+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::lopezsanchez1996",
+        "project_id": "mv-462c1a6c",
+        "native_id": "lopezsanchez1996",
+        "citekeys": [
+          "lopezsanchez1996"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only, from citing works.",
+        "work_id": "lit-e15a6dd25ce5"
+      },
+      "work": {
+        "id": "lit-e15a6dd25ce5",
+        "metadata": {
+          "title": "Malverde, un bandido generoso",
+          "authors": "López Sánchez, Sergio",
+          "year": 1996,
+          "type": "journal-article",
+          "container_title": "Fronteras",
+          "volume": "1",
+          "issue": "2",
+          "pages": "32-40"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:35+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::luchasocial",
+        "project_id": "mv-462c1a6c",
+        "native_id": "luchasocial",
+        "citekeys": [
+          "luchasocial"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-f3378ecd5819"
+      },
+      "work": {
+        "id": "lit-f3378ecd5819",
+        "metadata": {
+          "title": "Lucha social y formación histórica de la autonomía Yaqui-Yoreme, 1884-1939",
+          "type": "thesis",
+          "authors": "Gámez Chávez, Javier",
+          "year": 2004,
+          "publisher": "Universidad Nacional Autónoma de México",
+          "url": "http://132.248.9.195/ppt2004/0328645/Index.html"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item W9B47EDY",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:07+00:00"
+          },
+          {
+            "source": "UNAM thesis list, http://hmpi.historicas.unam.mx/tesis_UNAM, and citing works; the thesis PDF itself was not opened. Sources differ on the degree (licenciatura or maestría)",
+            "reason": "Author asked on 2026-11-06 to complete the Yaqui territory works so they can be read and linked.",
+            "at": "2026-11-06T12:58:22+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::maaso1993",
+        "project_id": "mv-462c1a6c",
+        "native_id": "maaso1993",
+        "citekeys": [
+          "maaso1993"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-58ce1f351bf5"
+      },
+      "work": {
+        "id": "lit-58ce1f351bf5",
+        "metadata": {
+          "title": "The Elders' Truth: A Yaqui Sermon",
+          "authors": "Maaso, Miki and Molina, Felipe S. and Evers, Larry",
+          "year": 1993,
+          "type": "journal-article",
+          "container_title": "Journal of the Southwest",
+          "volume": "35",
+          "issue": "3",
+          "pages": "225-317",
+          "url": "https://www.jstor.org/stable/40169889"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item TIM9UJ3Z",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:43+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::maldonado2025",
+        "project_id": "mv-462c1a6c",
+        "native_id": "maldonado2025",
+        "citekeys": [
+          "maldonado2025"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-b684da40c0ff"
+      },
+      "work": {
+        "id": "lit-b684da40c0ff",
+        "metadata": {
+          "title": "Artesanía Yoreme-Mayo: Significado y función ritual en las tradiciones de San Miguel Zapotitlán, Ahome, Sinaloa",
+          "authors": "Maldonado-García, Maribel and Vargas-Hernández, José G. and Ortiz-Hernández, Arturo Agustín",
+          "year": 2025,
+          "doi": "10.31644/ed.iei.v22.2025.a16",
+          "url": "https://doi.org/10.31644/ed.iei.v22.2025.a16",
+          "type": "journal-article",
+          "container_title": "EntreDiversidades. Revista de Ciencias Sociales y Humanidades",
+          "publisher": "Universidad Autonoma de Chiapas",
+          "volume": "22",
+          "pages": "01-22"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.31644/ed.iei.v22.2025.a16",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:38+00:00"
+          },
+          {
+            "source": "First page of the PDF in the author Zotero library, with ORCIDs matching https://api.crossref.org/works/10.31644/ed.iei.v22.2025.a16",
+            "reason": "Crossref lists the authors' universities as authors; the three people are the authors named on the article. Requested by the author on 2026-11-06.",
+            "at": "2026-11-06T11:28:43+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::martinez2017",
+        "project_id": "mv-462c1a6c",
+        "native_id": "martinez2017",
+        "citekeys": [
+          "martinez2017"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-a8dd39d1d113"
+      },
+      "work": {
+        "id": "lit-a8dd39d1d113",
+        "metadata": {
+          "title": "Análisis del discurso fílmico a través del modelo dialógico simétrico/asimétrico: vídeo de la danza pascola de los indígenas yoreme de El Fuerte, Sinaloa",
+          "authors": "Martínez Solano, Mtra. Cecilia Guadalupe and Espinoza Zallas, Mtro. Edgar Alberto",
+          "year": 2018,
+          "doi": "10.46589/rdiasf.v0i25.137",
+          "url": "https://doi.org/10.46589/rdiasf.v0i25.137",
+          "type": "journal-article",
+          "container_title": "Revista de Investigación Académica Sin Frontera: División de Ciencias Económicas y Sociales",
+          "publisher": "Universidad de Sonora",
+          "issue": "25"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.46589/rdiasf.v0i25.137",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:39+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::mercuri2002",
+        "project_id": "mv-462c1a6c",
+        "native_id": "mercuri2002",
+        "citekeys": [
+          "mercuri2002"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Narcoculture. Access: title only (Undermind record).",
+        "work_id": "lit-1ef7d1d52a12"
+      },
+      "work": {
+        "id": "lit-1ef7d1d52a12",
+        "metadata": {
+          "title": "Malverde, patrón de narcotraficantes",
+          "authors": "Mercuri, Mario",
+          "year": 2002,
+          "type": "article"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Undermind record, https://www.semanticscholar.org/paper/9918bbc85aee166e7f9b18277e0353f000cea50b",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:24+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::moctezuma2023",
+        "project_id": "mv-462c1a6c",
+        "native_id": "moctezuma2023",
+        "citekeys": [
+          "moctezuma2023"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-4721dbc1f051"
+      },
+      "work": {
+        "id": "lit-4721dbc1f051",
+        "metadata": {
+          "title": "Los danzantes de pascola: un grupo ritual del noroeste de México",
+          "authors": "Moctezuma Zamarrón, José Luis",
+          "year": 2023,
+          "type": "book"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item CBU7MARN",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:04+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::molina1998",
+        "project_id": "mv-462c1a6c",
+        "native_id": "molina1998",
+        "citekeys": [
+          "molina1998"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-af9a742bfb93"
+      },
+      "work": {
+        "id": "lit-af9a742bfb93",
+        "metadata": {
+          "title": "“Like this it stays in your hands”: Collaboration and Ethnopoetics",
+          "authors": "Molina, Felipe S. and Evers, Larry",
+          "year": 1998,
+          "type": "journal-article",
+          "container_title": "Oral Tradition",
+          "volume": "13",
+          "issue": "1",
+          "pages": "15-57"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item E5GCT72K",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:44+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::muntzel2002",
+        "project_id": "mv-462c1a6c",
+        "native_id": "muntzel2002",
+        "citekeys": [
+          "muntzel2002"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-cf351426362e"
+      },
+      "work": {
+        "id": "lit-cf351426362e",
+        "metadata": {
+          "title": "José Luis Moctezuma Zamarrón, De pascolas y venados. Adaptación, cambio y persistencia de las lenguas yaqui y mayo frente al español",
+          "authors": "Muntzel, Martha C.",
+          "year": 2002,
+          "type": "journal-article",
+          "container_title": "Dimensión Antropológica",
+          "volume": "26",
+          "pages": "167-172",
+          "url": "https://www.revistas.inah.gob.mx/index.php/dimension/article/view/7907"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item MS78PU35",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:03+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::oconnor1979",
+        "project_id": "mv-462c1a6c",
+        "native_id": "oconnor1979",
+        "citekeys": [
+          "oconnor1979"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only.",
+        "work_id": "lit-897c001d1210"
+      },
+      "work": {
+        "id": "lit-897c001d1210",
+        "metadata": {
+          "title": "Two Kinds of Religious Movements among the Mayo Indians of Sonora, Mexico",
+          "authors": "O’Connor, Mary",
+          "year": 1979,
+          "doi": "10.2307/1385652",
+          "url": "https://doi.org/10.2307/1385652",
+          "type": "journal-article",
+          "container_title": "Journal for the Scientific Study of Religion",
+          "volume": "18",
+          "issue": "3",
+          "pages": "260-268"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.2307/1385652",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:50+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::oldelk2001",
+        "project_id": "mv-462c1a6c",
+        "native_id": "oldelk2001",
+        "citekeys": [
+          "oldelk2001"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-e7a7f3f671e6"
+      },
+      "work": {
+        "id": "lit-e7a7f3f671e6",
+        "metadata": {
+          "title": "After the Rain: Rain",
+          "authors": "Old Elk, Arlene and Stoklas, Jackie",
+          "year": 2001,
+          "type": "report",
+          "publisher": "Heard Museum",
+          "url": "https://eric.ed.gov/?id=ED478404"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item XUDYIPRX",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:47+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::oliver2012",
+        "project_id": "mv-462c1a6c",
+        "native_id": "oliver2012",
+        "citekeys": [
+          "oliver2012"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Narcoculture. Access: metadata only, from citing work.",
+        "work_id": "lit-17fba93d35ae"
+      },
+      "work": {
+        "id": "lit-17fba93d35ae",
+        "metadata": {
+          "title": "Sobre Malverde, el narcocorrido y la \"ciudad narcotizada\"",
+          "authors": "Óliver, Felipe",
+          "year": 2012,
+          "type": "journal-article",
+          "container_title": "Isla Flotante",
+          "volume": "4",
+          "pages": "89-97"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:20+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::ortiz2012",
+        "project_id": "mv-462c1a6c",
+        "native_id": "ortiz2012",
+        "citekeys": [
+          "ortiz2012"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Corridos and music. Access: metadata only.",
+        "work_id": "lit-6901bb20e53f"
+      },
+      "work": {
+        "id": "lit-6901bb20e53f",
+        "metadata": {
+          "title": "El cancionero hagiográfico de Jesús Malverde. Corridos de un culto paracatólico",
+          "authors": "Ortiz Castillo, José Ramón",
+          "year": 2012,
+          "type": "phdthesis",
+          "publisher": "Brown University"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://hispanicstudies.brown.edu/graduate-program/phd-program/phd-dissertations",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:09+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2012",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2012",
+        "citekeys": [
+          "padilla2012"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-642f8517c17f"
+      },
+      "work": {
+        "id": "lit-642f8517c17f",
+        "metadata": {
+          "title": "Guerra secular del Yaqui y significaciones imaginario sociales",
+          "authors": "Padilla Ramos, Raquel and Trejo Contreras, Zulema",
+          "year": 2012,
+          "type": "journal-article",
+          "container_title": "Historia Mexicana",
+          "volume": "62",
+          "issue": "1",
+          "pages": "59-103",
+          "publisher": "El Colegio de México",
+          "url": "https://www.jstor.org/stable/41759179"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item JKSVL4Z2",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:45+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020agua",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020agua",
+        "citekeys": [
+          "padilla2020agua"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-ad2a9af83456"
+      },
+      "work": {
+        "id": "lit-ad2a9af83456",
+        "metadata": {
+          "title": "Agua es territorio. Un panorama general de las luchas yaquis por la defensa de sus recursos naturales",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "40-52",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17175"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item ZF76BSEQ",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:55+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020bacatete",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020bacatete",
+        "citekeys": [
+          "padilla2020bacatete"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-90489ebbd1a7"
+      },
+      "work": {
+        "id": "lit-90489ebbd1a7",
+        "metadata": {
+          "title": "Aquel Bacatete donde… yo me pronuncié",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "11-23",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17173"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item DC4US9ID",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:56+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020barbarie",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020barbarie",
+        "citekeys": [
+          "padilla2020barbarie"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-63460b5ac1df"
+      },
+      "work": {
+        "id": "lit-63460b5ac1df",
+        "metadata": {
+          "title": "La barbarie de México. Yaquis en la guerra y la deportación bajo la mirada de Turner",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "81-103",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17178"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item N6FN7BMS",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:52+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020cicatrizando",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020cicatrizando",
+        "citekeys": [
+          "padilla2020cicatrizando"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-547d0ba16d43"
+      },
+      "work": {
+        "id": "lit-547d0ba16d43",
+        "metadata": {
+          "title": "Cicatrizando el territorio. Los ductos y la criminalización de las luchas yaquis",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "53-63",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17176"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item 378QM92E",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:50+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020demonios",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020demonios",
+        "citekeys": [
+          "padilla2020demonios"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-5b3f78d1905c"
+      },
+      "work": {
+        "id": "lit-5b3f78d1905c",
+        "metadata": {
+          "title": "“¡Y se batieron como demonios!” ¿África del Norte como una variante más del destierro yaqui?",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "64-80",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17177"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item SSBNCXTN",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:51+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020diario",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020diario",
+        "citekeys": [
+          "padilla2020diario"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-79f9762ff9a6"
+      },
+      "work": {
+        "id": "lit-79f9762ff9a6",
+        "metadata": {
+          "title": "Diario de Campo No. 3, cuarta época, CNAM, septiembre-diciembre 2017",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "1",
+          "pages": "198-204",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17166"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item PUXD5CD4",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:05+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020familia",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020familia",
+        "citekeys": [
+          "padilla2020familia"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-dd1eb6e01b14"
+      },
+      "work": {
+        "id": "lit-dd1eb6e01b14",
+        "metadata": {
+          "title": "La familia yaqui y la frontera: de la diáspora a la Pascua",
+          "authors": "Padilla Ramos, Raquel and Meraz Yepiz, Emanuel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "104-115",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17179"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item ASFKRWML",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:54+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020fe",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020fe",
+        "citekeys": [
+          "padilla2020fe"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-37bc9aac756d"
+      },
+      "work": {
+        "id": "lit-37bc9aac756d",
+        "metadata": {
+          "title": "La gran fe de las “mil prácticas grotescas”. Una mirada general a la organización religiosa y política de los yaquis",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "116-128",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17180"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item WRMWGH7Q",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:56+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020luxacion",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020luxacion",
+        "citekeys": [
+          "padilla2020luxacion"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-a3df7e28f132"
+      },
+      "work": {
+        "id": "lit-a3df7e28f132",
+        "metadata": {
+          "title": "De una luxación coxofemoral a la autopsia 642. Bioética y práctica médica sobre cuerpos yaquis en Yucatán porfiriano",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "1",
+          "pages": "123-142",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17162"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item I6HZKH4H",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:50+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2020territorio",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2020territorio",
+        "citekeys": [
+          "padilla2020territorio"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-6af015ab26a2"
+      },
+      "work": {
+        "id": "lit-6af015ab26a2",
+        "metadata": {
+          "title": "Yaquis: territorio y destierro...",
+          "authors": "Padilla Ramos, Raquel and Marat, Mauricio",
+          "year": 2020,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "2",
+          "pages": "137-149",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/17183"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item E7U9E487",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:53+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2021antigachupinismo",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2021antigachupinismo",
+        "citekeys": [
+          "padilla2021antigachupinismo"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-f8b66782a2f7"
+      },
+      "work": {
+        "id": "lit-f8b66782a2f7",
+        "metadata": {
+          "title": "Antigachupinismo y antiyorismo yaquis en el siglo XIX",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2021,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "3",
+          "pages": "33-46",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/18101"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item SV2YTY7L",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:53+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::padilla2022matachini",
+        "project_id": "mv-462c1a6c",
+        "native_id": "padilla2022matachini",
+        "citekeys": [
+          "padilla2022matachini"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-bc0771e61877"
+      },
+      "work": {
+        "id": "lit-bc0771e61877",
+        "metadata": {
+          "title": "Matachini, la milicia de la Virgen entre los yaquis",
+          "authors": "Padilla Ramos, Raquel",
+          "year": 2022,
+          "type": "journal-article",
+          "container_title": "Noroeste de México",
+          "issue": "5",
+          "pages": "109-143",
+          "url": "https://revistas.inah.gob.mx/index.php/noroestedemexico/article/view/21841"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item GLS7K4RT",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:58+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::park2007",
+        "project_id": "mv-462c1a6c",
+        "native_id": "park2007",
+        "citekeys": [
+          "park2007"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only; source URL seen.",
+        "work_id": "lit-7b6fe51f4d87"
+      },
+      "work": {
+        "id": "lit-7b6fe51f4d87",
+        "metadata": {
+          "title": "Sujeto popular entre el bien y el mal: imágenes dialécticas de \"Jesús Malverde\"",
+          "authors": "Park, Jungwon",
+          "year": 2007,
+          "url": "https://www.lehman.edu/media/Ciberletras/documents/ISSUE-17.pdf",
+          "type": "journal-article",
+          "container_title": "Ciberletras",
+          "issue": "17"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://www.lehman.edu/media/Ciberletras/documents/ISSUE-17.pdf",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:36+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::park2019",
+        "project_id": "mv-462c1a6c",
+        "native_id": "park2019",
+        "citekeys": [
+          "park2019"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Comparative folk saints. Access: metadata only.",
+        "work_id": "lit-d0c26a244d2b"
+      },
+      "work": {
+        "id": "lit-d0c26a244d2b",
+        "metadata": {
+          "title": "Bare Life in Contemporary Mexico: Everyday Violence and Folk Saints",
+          "authors": "Park, Jungwon",
+          "year": 2019,
+          "doi": "10.56687/9781529208184-014",
+          "url": "https://doi.org/10.56687/9781529208184-014",
+          "type": "book-chapter",
+          "container_title": "A Post-Neoliberal Era in Latin America?",
+          "pages": "243-260",
+          "publisher": "Bristol University Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.56687/9781529208184-014",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:42+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::parsons1934",
+        "project_id": "mv-462c1a6c",
+        "native_id": "parsons1934",
+        "citekeys": [
+          "parsons1934"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-1908dbb588ca"
+      },
+      "work": {
+        "id": "lit-1908dbb588ca",
+        "metadata": {
+          "title": "The Sacred Clowns of the Pueblo and Mayo-Yaqui Indians",
+          "authors": "Parsons, Elsie Clews and Beals, Ralph L.",
+          "year": 1934,
+          "type": "journal-article",
+          "container_title": "American Anthropologist",
+          "volume": "36",
+          "issue": "4",
+          "pages": "491-514",
+          "url": "https://www.jstor.org/stable/661824"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item 8J2WFGGA",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:48+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::partida2011",
+        "project_id": "mv-462c1a6c",
+        "native_id": "partida2011",
+        "citekeys": [
+          "partida2011"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only.",
+        "work_id": "lit-f351e3aacc83"
+      },
+      "work": {
+        "id": "lit-f351e3aacc83",
+        "metadata": {
+          "title": "Malverde: de Santo familiar a protector de narcotraficantes",
+          "authors": "Partida Tayzán, Armando",
+          "year": 2011,
+          "doi": "10.1353/ltr.2011.0008",
+          "url": "https://doi.org/10.1353/ltr.2011.0008",
+          "type": "journal-article",
+          "container_title": "Latin American Theatre Review",
+          "volume": "44",
+          "issue": "2",
+          "pages": "35-53"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.1353/ltr.2011.0008",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:28+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::perea2020",
+        "project_id": "mv-462c1a6c",
+        "native_id": "perea2020",
+        "citekeys": [
+          "perea2020"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: direct quotes from journal PDF via Firecrawl.",
+        "work_id": "lit-b38059fd4664"
+      },
+      "work": {
+        "id": "lit-b38059fd4664",
+        "metadata": {
+          "title": "Jesús Malverde: el imaginario colectivo del bandido social y los exvotos en su capilla, 1909-2019",
+          "authors": "Perea Romo, Diana María",
+          "year": 2020,
+          "url": "https://zenodo.org/records/15020495",
+          "type": "journal-article",
+          "container_title": "Escripta. Revista de Historia",
+          "volume": "2",
+          "issue": "4",
+          "pages": "43-68"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://zenodo.org/records/15020495",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:21+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::perea2020a",
+        "project_id": "mv-462c1a6c",
+        "native_id": "perea2020a",
+        "citekeys": [
+          "perea2020a"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: metadata only, from citing work.",
+        "work_id": "lit-86931e35ce00"
+      },
+      "work": {
+        "id": "lit-86931e35ce00",
+        "metadata": {
+          "title": "El espacio votivo y los exvotos en la capilla de Jesús Malverde",
+          "authors": "Perea Romo, Diana María",
+          "year": 2020,
+          "type": "book-chapter",
+          "container_title": "Los espacios de la historia en Sinaloa",
+          "pages": "313-336",
+          "publisher": "Universidad Autónoma de Sinaloa"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Perea Romo 2026 reference list, https://doi.org/10.29340/en.v9n18.453",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:48+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::perea2026",
+        "project_id": "mv-462c1a6c",
+        "native_id": "perea2026",
+        "citekeys": [
+          "perea2026"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: abstract and reference list.",
+        "work_id": "lit-1cc2c1a14cee"
+      },
+      "work": {
+        "id": "lit-1cc2c1a14cee",
+        "metadata": {
+          "title": "Pedir y agradecer por los milagros concedidos: la historia, las prácticas y el contenido social de los exvotos en la Capilla de Jesús Malverde",
+          "authors": "Perea Romo, Diana María",
+          "year": 2026,
+          "doi": "10.29340/en.v9n18.453",
+          "url": "https://doi.org/10.29340/en.v9n18.453",
+          "type": "journal-article",
+          "container_title": "Encartes",
+          "volume": "9",
+          "issue": "18",
+          "pages": "75-103"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://doi.org/10.29340/en.v9n18.453",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:46+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::planjusticia",
+        "project_id": "mv-462c1a6c",
+        "native_id": "planjusticia",
+        "citekeys": [
+          "planjusticia"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-92ca045347e9"
+      },
+      "work": {
+        "id": "lit-92ca045347e9",
+        "metadata": {
+          "title": "Plan de Justicia del Pueblo Yaqui",
+          "type": "report",
+          "authors": "{Comisión Presidencial de Justicia para el Pueblo Yaqui}",
+          "year": 2021,
+          "publisher": "Gobierno de México",
+          "url": "https://www.inpi.gob.mx/gobmx-2021/Plan-de-Justicia-del-Pueblo-Yaqui.pdf"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item X4JWDW9L",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:09+00:00"
+          },
+          {
+            "source": "PDF in the author Zotero library (back cover) and INPI, https://www.gob.mx/inpi/articulos/plan-de-justicia-del-pueblo-yaqui-284974",
+            "reason": "Author asked on 2026-11-06 to complete the Yaqui territory works so they can be read and linked.",
+            "at": "2026-11-06T12:58:21+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::price2004",
+        "project_id": "mv-462c1a6c",
+        "native_id": "price2004",
+        "citekeys": [
+          "price2004"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only.",
+        "work_id": "lit-a82bd9acdbc9"
+      },
+      "work": {
+        "id": "lit-a82bd9acdbc9",
+        "metadata": {
+          "title": "Dry Place: Landscapes of Belonging and Exclusion",
+          "authors": "Price, Patricia L.",
+          "year": 2004,
+          "isbn": "9780816643066",
+          "url": "https://openlibrary.org/works/OL6032354W",
+          "type": "book",
+          "publisher": "University of Minnesota Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL6032354W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:32+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::price2005",
+        "project_id": "mv-462c1a6c",
+        "native_id": "price2005",
+        "citekeys": [
+          "price2005"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: full text (HAL open copy; Firecrawl extraction, pp. 175, 176, 191, 194).",
+        "work_id": "lit-089f2164ad64"
+      },
+      "work": {
+        "id": "lit-089f2164ad64",
+        "metadata": {
+          "title": "Of bandits and saints: Jesús Malverde and the struggle for place in Sinaloa, Mexico",
+          "authors": "Price, Patricia L.",
+          "year": 2005,
+          "doi": "10.1191/1474474005eu325oa",
+          "url": "https://doi.org/10.1191/1474474005eu325oa",
+          "type": "journal-article",
+          "container_title": "cultural geographies",
+          "volume": "12",
+          "issue": "2",
+          "pages": "175-197",
+          "publisher": "SAGE Publications"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.1191/1474474005eu325oa",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:20+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::quinones2001",
+        "project_id": "mv-462c1a6c",
+        "native_id": "quinones2001",
+        "citekeys": [
+          "quinones2001"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: metadata only.",
+        "work_id": "lit-62d2b3fcdf45"
+      },
+      "work": {
+        "id": "lit-62d2b3fcdf45",
+        "metadata": {
+          "title": "True Tales from Another Mexico: The Lynch Mob, the Popsicle Kings, Chalino, and the Bronx",
+          "authors": "Quinones, Sam",
+          "year": 2001,
+          "isbn": "9780826322968",
+          "url": "https://openlibrary.org/works/OL17490975W",
+          "type": "book",
+          "publisher": "University of New Mexico Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL17490975W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:30+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::reynoso2012",
+        "project_id": "mv-462c1a6c",
+        "native_id": "reynoso2012",
+        "citekeys": [
+          "reynoso2012"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: metadata only.",
+        "work_id": "lit-cdb6ef14a001"
+      },
+      "work": {
+        "id": "lit-cdb6ef14a001",
+        "metadata": {
+          "title": "Les protecteurs surnaturels des migrants mexicains : Interprétation de trois récits",
+          "authors": "Reynoso-Rábago, Alfonso and González-Pérez, Cándido and Medrano-Hernández, Hugo Adrián",
+          "year": 2012,
+          "doi": "10.7202/1007498ar",
+          "url": "https://doi.org/10.7202/1007498ar",
+          "type": "journal-article",
+          "container_title": "Recherches amérindiennes au Québec",
+          "volume": "40",
+          "issue": "1-2",
+          "pages": "61-73"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.7202/1007498ar",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:00+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::riobo2022",
+        "project_id": "mv-462c1a6c",
+        "native_id": "riobo2022",
+        "citekeys": [
+          "riobo2022"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: metadata only, from citing work.",
+        "work_id": "lit-a5ee705e4d87"
+      },
+      "work": {
+        "id": "lit-a5ee705e4d87",
+        "metadata": {
+          "title": "Apuntes para el estudio de la santificación popular desde la fotografía documental: el culto a Jesús Malverde en México",
+          "authors": "Riobó Rodríguez, Juan Camilo",
+          "year": 2022,
+          "url": "https://ufs.emnuvens.com.br/pontadelanca/article/view/18655",
+          "type": "journal-article",
+          "container_title": "Ponta de Lança",
+          "volume": "16",
+          "issue": "31",
+          "pages": "75-97"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:55+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::rocha2019",
+        "project_id": "mv-462c1a6c",
+        "native_id": "rocha2019",
+        "citekeys": [
+          "rocha2019"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: full text (Undermind PDF reader; pp. 3-5).",
+        "work_id": "lit-bb1093e4b87b"
+      },
+      "work": {
+        "id": "lit-bb1093e4b87b",
+        "metadata": {
+          "title": "Bendito tú eres entre todos los bandidos: el culto transfronterizo a Jesús Malverde (siglos XIX-XXI)",
+          "authors": "Da Cunha Rocha, Carolina",
+          "year": 2019,
+          "doi": "10.33679/rfn.v1i1.2029",
+          "url": "https://doi.org/10.33679/rfn.v1i1.2029",
+          "type": "journal-article",
+          "container_title": "Frontera Norte",
+          "volume": "31",
+          "issue": "1",
+          "pages": "1-20",
+          "publisher": "El Colegio de la Frontera Norte"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.33679/rfn.v1i1.2029",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:23+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::rodriguez2003",
+        "project_id": "mv-462c1a6c",
+        "native_id": "rodriguez2003",
+        "citekeys": [
+          "rodriguez2003"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: Firecrawl extraction of author PDF.",
+        "work_id": "lit-6aef54ad141e"
+      },
+      "work": {
+        "id": "lit-6aef54ad141e",
+        "metadata": {
+          "title": "El culto a Jesús Malverde. Todo tiene su tiempo para ser creído, incluso las mayores falacias",
+          "authors": "Rodríguez, Ida",
+          "year": 2003,
+          "url": "https://www.esteticas.unam.mx/edartedal/PDF/Bahia/complets/RodriguezMalverde.pdf",
+          "type": "article",
+          "publisher": "Instituto de Investigaciones Estéticas, UNAM"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://www.esteticas.unam.mx/edartedal/PDF/Bahia/complets/RodriguezMalverde.pdf",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:43+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::sada2000",
+        "project_id": "mv-462c1a6c",
+        "native_id": "sada2000",
+        "citekeys": [
+          "sada2000"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Press and popular sources. Access: search excerpt only.",
+        "work_id": "lit-b5653549a637"
+      },
+      "work": {
+        "id": "lit-b5653549a637",
+        "metadata": {
+          "title": "Cada piedra es un deseo",
+          "authors": "Sada, Daniel",
+          "year": 2000,
+          "url": "https://letraslibres.com/revista-mexico/cada-piedra-es-un-deseo/",
+          "type": "article",
+          "container_title": "Letras Libres"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://letraslibres.com/revista-mexico/cada-piedra-es-un-deseo/",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:58+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::sanchez2012",
+        "project_id": "mv-462c1a6c",
+        "native_id": "sanchez2012",
+        "citekeys": [
+          "sanchez2012"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-bdf2ea32b3c7"
+      },
+      "work": {
+        "id": "lit-bdf2ea32b3c7",
+        "metadata": {
+          "title": "Las danzas de pascola y venado. Su cultura material y comportamiento ritual",
+          "authors": "Sánchez Pichardo, Pablo",
+          "year": 2012,
+          "type": "journal-article",
+          "container_title": "Anales de Antropología",
+          "volume": "46",
+          "pages": "135-153",
+          "doi": null,
+          "url": "https://revistas.unam.mx/index.php/antropologia/article/view/30699"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "First page of the PDF in the author Zotero library; DOI from Zotero, not in Crossref",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:59+00:00"
+          },
+          {
+            "source": "https://revistas.unam.mx/index.php/antropologia/article/view/30699",
+            "reason": "The publisher page shows DOI 10.22201/iia.24486221e.2012.0.30699, but doi.org returned 404 on 2026-11-06 and Crossref has no record, so the DOI is not registered. Removed until it resolves; the publisher page is the locator. Requested by the author on 2026-11-06.",
+            "at": "2026-11-06T11:28:44+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::schechner1985",
+        "project_id": "mv-462c1a6c",
+        "native_id": "schechner1985",
+        "citekeys": [
+          "schechner1985"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-9771e2d7ca24"
+      },
+      "work": {
+        "id": "lit-9771e2d7ca24",
+        "metadata": {
+          "title": "Between Theater and Anthropology",
+          "authors": "Schechner, Richard",
+          "year": 1985,
+          "type": "book"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item QMZ9IZ2T",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:05+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::schulze2018",
+        "project_id": "mv-462c1a6c",
+        "native_id": "schulze2018",
+        "citekeys": [
+          "schulze2018"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-879a963995e7"
+      },
+      "work": {
+        "id": "lit-879a963995e7",
+        "metadata": {
+          "title": "Are We Not Foreigners Here? Indigenous Nationalism in the U.S.-Mexico Borderlands",
+          "authors": "Schulze, Jeffrey",
+          "year": 2018,
+          "type": "book",
+          "publisher": "University of North Carolina Press"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item AIIZWB9M",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:59+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::sotelo2021",
+        "project_id": "mv-462c1a6c",
+        "native_id": "sotelo2021",
+        "citekeys": [
+          "sotelo2021"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Historical evidence, name and identity. Access: full text (Undermind PDF reader; pp. 79-99).",
+        "work_id": "lit-e16b3a40c12c"
+      },
+      "work": {
+        "id": "lit-e16b3a40c12c",
+        "metadata": {
+          "title": "“Oye, Malverde, ya me diste botana, ya me diste trago... ora música... pues ahora diles que me den un billetito”: el culto a Jesús Malverde desde la voz y la construcción de su capilla como rincón del mundo",
+          "authors": "Sotelo Chávez, Leonardo David",
+          "year": 2021,
+          "doi": "10.22201/enesmorelia.26832763e.2021.6.70",
+          "url": "https://doi.org/10.22201/enesmorelia.26832763e.2021.6.70",
+          "type": "journal-article",
+          "container_title": "Diálogos de Campo",
+          "volume": "3",
+          "issue": "6",
+          "pages": "76-"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://api.crossref.org/works/10.22201/enesmorelia.26832763e.2021.6.70",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:24+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::soto2020",
+        "project_id": "mv-462c1a6c",
+        "native_id": "soto2020",
+        "citekeys": [
+          "soto2020"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Press and popular sources. Access: read directly via Firecrawl search.",
+        "work_id": "lit-ec6bae5be69f"
+      },
+      "work": {
+        "id": "lit-ec6bae5be69f",
+        "metadata": {
+          "title": "Felipe Bachomo y la brigada Yoreme-Mayo del Río Fuerte en la Revolución Mexicana",
+          "authors": "Soto Sánchez, Norberto",
+          "year": 2020,
+          "url": "https://www.laizquierdadiario.mx/Felipe-Bachomo-y-la-brigada-Yoreme-Mayo-del-Rio-Fuerte-en-la-Revolucion-Mexicana",
+          "type": "article",
+          "container_title": "Ideas de Izquierda / La Izquierda Diario"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://www.laizquierdadiario.mx/Felipe-Bachomo-y-la-brigada-Yoreme-Mayo-del-Rio-Fuerte-en-la-Revolucion-Mexicana",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:43:00+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::spicer1940",
+        "project_id": "mv-462c1a6c",
+        "native_id": "spicer1940",
+        "citekeys": [
+          "spicer1940"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-02f0f4ea2725"
+      },
+      "work": {
+        "id": "lit-02f0f4ea2725",
+        "metadata": {
+          "title": "Chapter VII: The Pascola Dancers",
+          "authors": "Spicer, Edward H.",
+          "year": 1940,
+          "type": "book-chapter",
+          "container_title": "Pascua: A Yaqui Village in Arizona",
+          "url": "https://www.jstor.org/stable/j.ctvss3x9k.13"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item 9D2GM2JQ",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:08+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::troncoso1905",
+        "project_id": "mv-462c1a6c",
+        "native_id": "troncoso1905",
+        "citekeys": [
+          "troncoso1905"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-660922ecda5f"
+      },
+      "work": {
+        "id": "lit-660922ecda5f",
+        "metadata": {
+          "title": "Las guerras con las tribus Yaqui y Mayo del estado de Sonora",
+          "authors": "Troncoso, Francisco de Paula",
+          "year": 1905,
+          "type": "book",
+          "publisher": "Tipografía del Departamento de Estado Mayor"
+        },
+        "metadata_status": "inherited",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item N6FD3FV6",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:00+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::tumbaga2018",
+        "project_id": "mv-462c1a6c",
+        "native_id": "tumbaga2018",
+        "citekeys": [
+          "tumbaga2018"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-b6d25e885fcb"
+      },
+      "work": {
+        "id": "lit-b6d25e885fcb",
+        "metadata": {
+          "title": "Yaqui Indigeneity: Epistemology, Diaspora, and the Construction of Yoeme Identity",
+          "authors": "Tumbaga, Ariel Zatarain",
+          "year": 2018,
+          "type": "book",
+          "publisher": "University of Arizona Press",
+          "url": "https://muse.jhu.edu/book/57478"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item A8VVBUXR",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:14:46+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::valenzuela2013",
+        "project_id": "mv-462c1a6c",
+        "native_id": "valenzuela2013",
+        "citekeys": [
+          "valenzuela2013"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Literature, theatre, film and images. Access: metadata only, from citing work.",
+        "work_id": "lit-8eb211519fa8"
+      },
+      "work": {
+        "id": "lit-8eb211519fa8",
+        "metadata": {
+          "title": "Malverde. El mito santificado",
+          "authors": "Valenzuela Arámburo, Pável",
+          "year": 2013,
+          "type": "motion-picture",
+          "publisher": "El Colegio de la Frontera Norte"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Da Cunha Rocha 2019 reference list, https://doi.org/10.33679/rfn.v1i1.2029",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:34+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::valenzuela2023",
+        "project_id": "mv-462c1a6c",
+        "native_id": "valenzuela2023",
+        "citekeys": [
+          "valenzuela2023"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Comparative folk saints. Access: metadata only.",
+        "work_id": "lit-f835bb9d21c1"
+      },
+      "work": {
+        "id": "lit-f835bb9d21c1",
+        "metadata": {
+          "title": "Todo lo santo es profano. Mística popular transfronteriza: Jesús Malverde, Santa Muerte, Niño Fidencio y Juan Soldado",
+          "authors": "Valenzuela Arce, José Manuel and Valenzuela Arámburo, Pável",
+          "year": 2023,
+          "url": "https://libros.colsan.edu.mx/index.php/libros/catalog/book/19",
+          "type": "book",
+          "publisher": "Universidad Autónoma de Sinaloa; El Colegio de la Frontera Norte; El Colegio de San Luis"
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "https://libros.colsan.edu.mx/index.php/libros/catalog/book/19",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:38+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::vanderwood1998",
+        "project_id": "mv-462c1a6c",
+        "native_id": "vanderwood1998",
+        "citekeys": [
+          "vanderwood1998"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only.",
+        "work_id": "lit-767825972b3c"
+      },
+      "work": {
+        "id": "lit-767825972b3c",
+        "metadata": {
+          "title": "The Power of God Against the Guns of Government: Religious Upheaval in Mexico at the Turn of the Nineteenth Century",
+          "authors": "Vanderwood, Paul J.",
+          "year": 1998,
+          "isbn": "9780804730396",
+          "url": "https://openlibrary.org/works/OL2707917W",
+          "type": "book",
+          "publisher": "Stanford University Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL2707917W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:55+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::vidaca2015",
+        "project_id": "mv-462c1a6c",
+        "native_id": "vidaca2015",
+        "citekeys": [
+          "vidaca2015"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Devotion, chapel and migration. Access: metadata only, from citing work.",
+        "work_id": "lit-1d663fc83000"
+      },
+      "work": {
+        "id": "lit-1d663fc83000",
+        "metadata": {
+          "title": "Religiosidad y devoción popular en Culiacán: un acercamiento al catolicismo y la adoración a Jesús Malverde entre 1960 y 1970",
+          "authors": "Vidaca Osuna, Alejandro",
+          "year": 2015,
+          "type": "thesis",
+          "publisher": "Universidad Autónoma de Sinaloa"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Perea Romo 2026 reference list, https://doi.org/10.29340/en.v9n18.453",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:41:58+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::yaquismemoria",
+        "project_id": "mv-462c1a6c",
+        "native_id": "yaquismemoria",
+        "citekeys": [
+          "yaquismemoria"
+        ],
+        "origin": {
+          "path": "literature/search-log.md"
+        },
+        "project_context": "Candidate from zotero:Yaqui, 2026-11-05. Not screened or read.",
+        "work_id": "lit-aedd8f6f6573"
+      },
+      "work": {
+        "id": "lit-aedd8f6f6573",
+        "metadata": {
+          "title": "Yaquis: memoria, territorio y participación política",
+          "type": "book",
+          "year": 2025,
+          "publisher": "Instituto Nacional de Estudios Históricos de las Revoluciones de México",
+          "bibtex_fields": {
+            "editor": "Tapia, Regina and Carrillo Reveles, Veremundo"
+          }
+        },
+        "metadata_status": "source-verified",
+        "provenance": [
+          {
+            "source": "Author Zotero library, Yaqui collection, item T4D32GTH",
+            "reason": "Literature pass requested by the author on 2026-11-05. Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-06T01:15:06+00:00"
+          },
+          {
+            "source": "Title and legal pages of the PDF in the author Zotero library",
+            "reason": "Author asked on 2026-11-06 to complete the Yaqui territory works so they can be read and linked.",
+            "at": "2026-11-06T12:58:20+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::yetman2002",
+        "project_id": "mv-462c1a6c",
+        "native_id": "yetman2002",
+        "citekeys": [
+          "yetman2002"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Yoreme/Mayo and Yoeme/Yaqui regional context, not about Malverde. Access: metadata only.",
+        "work_id": "lit-f42aa302b880"
+      },
+      "work": {
+        "id": "lit-f42aa302b880",
+        "metadata": {
+          "title": "Mayo Ethnobotany: Land, History, and Traditional Knowledge in Northwest Mexico",
+          "authors": "Yetman, David and Van Devender, Thomas R.",
+          "year": 2002,
+          "isbn": "9780520227217",
+          "url": "https://openlibrary.org/works/OL1904184W",
+          "type": "book",
+          "publisher": "University of California Press"
+        },
+        "metadata_status": "registry-verified",
+        "provenance": [
+          {
+            "source": "https://openlibrary.org/works/OL1904184W",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:51+00:00"
+          }
+        ],
+        "relations": []
+      }
+    },
+    {
+      "use": {
+        "key": "mv-462c1a6c::zebert2016",
+        "project_id": "mv-462c1a6c",
+        "native_id": "zebert2016",
+        "citekeys": [
+          "zebert2016"
+        ],
+        "origin": {
+          "path": "literature/sources.md"
+        },
+        "project_context": "Jesús Malverde literature, Narcoculture. Access: metadata only, from citing work.",
+        "work_id": "lit-36307b440a33"
+      },
+      "work": {
+        "id": "lit-36307b440a33",
+        "metadata": {
+          "title": "Material Representation: Narco Religiosity in New American Conception",
+          "authors": "Zebert-Judd, Megan A.",
+          "year": 2016,
+          "type": "thesis",
+          "publisher": "San Diego State University"
+        },
+        "metadata_status": "needs-review",
+        "provenance": [
+          {
+            "source": "Fabián Jiménez 2025 reference list, https://doi.org/10.29340/en.v8n16.435",
+            "reason": "Jesús Malverde literature pass for MalverdeSoftware (Undermind and Firecrawl, 2026-11-05). Library-wide DOI and title check found no existing work.",
+            "at": "2026-11-05T19:42:26+00:00"
+          }
+        ],
+        "relations": []
+      }
+    }
+  ],
+  "notice": "Generated project view. Edit shared metadata through the central library; project evidence and claims remain use-specific. Includes candidates, not only cited sources."
+}

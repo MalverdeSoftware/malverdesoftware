@@ -1,0 +1,11 @@
+/* Ring has only light and dark themes, but it ships a green family for success states. Pointing the accent at that
+   family turns every control green using Ring's own shades. Import after base.css. */
+:root {
+  --ring-main-components: var(--ring-main-success-components);
+  --ring-main-hover-components: var(--ring-main-success-hover-components);
+  --ring-main-container-light-components: var(--ring-success-container-light-components);
+  --ring-link-components: var(--ring-success-components);
+  --ring-link-hover-components: var(--ring-main-success-hover-components);
+  --ring-border-hover-components: var(--ring-success-border-hover-components);
+  --ring-border-accent-components: var(--ring-success-border-components);
+}

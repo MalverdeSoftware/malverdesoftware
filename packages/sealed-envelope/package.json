@@ -1,0 +1,25 @@
+{
+  "name": "@malverdesoftware/sealed-envelope",
+  "version": "0.1.1",
+  "license": "Apache-2.0",
+  "private": true,
+  "description": "Browser-only sealing for MalverdeSoftware sessions (WebCrypto, no dependencies).",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "malverdesoftware-source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "fixtures",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\""
+  }
+}

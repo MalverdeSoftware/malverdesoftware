@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "MalverdeSoftware shared packages"
+abstract: >-
+  Shared foundations for MalverdeSoftware research tools: a relay that
+  stores only sealed data, browser-side sealed envelopes, a session
+  client and a user-interface package.
+authors:
+  - family-names: "de la Sierra"
+    given-names: "Valentín Quiroz"
+    affiliation: "Johns Hopkins University"
+    orcid: "https://orcid.org/0000-0002-9035-8094"
+  - family-names: "Ledesma"
+    given-names: "Marissa"
+license: Apache-2.0
+repository-code: "https://github.com/MalverdeSoftware/malverdesoftware"
+keywords:
+  - community-based participatory research
+  - CBPR
+  - Indigenous-led software
+  - end-to-end encryption
