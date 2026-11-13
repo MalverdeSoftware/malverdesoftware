@@ -1,8 +1,7 @@
 {
   "name": "@malverdesoftware/relay",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "Apache-2.0",
-  "private": true,
   "description": "Ciphertext-only session relay for MalverdeSoftware apps: a portable Fetch API handler and storage adapters.",
   "type": "module",
   "sideEffects": false,
@@ -26,5 +25,19 @@
   ],
   "scripts": {
     "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalverdeSoftware/malverdesoftware.git",
+    "directory": "packages/relay"
+  },
+  "homepage": "https://github.com/MalverdeSoftware/malverdesoftware/tree/main/packages/relay#readme",
+  "author": "Valentín Quiroz de la Sierra",
+  "contributors": [
+    "Marissa Ledesma"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }

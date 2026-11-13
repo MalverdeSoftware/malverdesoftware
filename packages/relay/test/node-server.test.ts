@@ -12,7 +12,7 @@ test("serveNode serves the relay contract over HTTP, including CORS for a localh
   const server = await serveNode(relay, { host: "127.0.0.1", port: 0, store });
   try {
     const base = `${server.url}/relay/v1`;
-    assert.deepEqual(await (await fetch(`${base}/health`)).json(), { ok: true, version: "0.1.0" });
+    assert.deepEqual(await (await fetch(`${base}/health`)).json(), { ok: true, version: "0.1.1" });
     const s = await newSession(2);
     s.body.sessionId = s.sessionId;
     const create = await fetch(`${base}/sessions`, {

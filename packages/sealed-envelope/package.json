@@ -1,8 +1,7 @@
 {
   "name": "@malverdesoftware/sealed-envelope",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "Apache-2.0",
-  "private": true,
   "description": "Browser-only sealing for MalverdeSoftware sessions (WebCrypto, no dependencies).",
   "type": "module",
   "sideEffects": false,
@@ -21,5 +20,19 @@
   ],
   "scripts": {
     "test": "node --test \"test/*.test.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalverdeSoftware/malverdesoftware.git",
+    "directory": "packages/sealed-envelope"
+  },
+  "homepage": "https://github.com/MalverdeSoftware/malverdesoftware/tree/main/packages/sealed-envelope#readme",
+  "author": "Valentín Quiroz de la Sierra",
+  "contributors": [
+    "Marissa Ledesma"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
