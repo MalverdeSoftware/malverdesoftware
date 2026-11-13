@@ -75,4 +75,10 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           name="${GITHUB_REF_NAME%-v*}"
+          pkg=$(node -p "require('./packages/${name}/package.json').name")
+          version=$(node -p "require('./packages/${name}/package.json').version")
+          if npm view "${pkg}@${version}" version >/dev/null 2>&1; then
+            echo "${pkg}@${version} is already on npm; nothing to publish."
+            exit 0
+          fi
           npm publish -w "packages/${name}" --provenance --access public
