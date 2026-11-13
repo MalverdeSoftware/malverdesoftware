@@ -126,15 +126,15 @@ Reserved for mVote, as additive methods only: `ParticipantSession.publishShared(
 
 ## Session key file
 
-The file is Markdown so it can be read in Obsidian or Teams. The JSON block after the marker comment is the only source of truth; the human-readable parts are regenerated from it on every save. `parseSessionFile` rejects any file whose JSON is missing, invalid, of an unknown `format`, or has malformed fields.
+The file is Markdown so it can be read in any text editor or Markdown viewer. The JSON block after the marker comment is the only source of truth; the human-readable parts are regenerated from it on every save. `parseSessionFile` rejects any file whose JSON is missing, invalid, of an unknown `format`, or has malformed fields.
 
 ````markdown
 # MalverdeSoftware session key: Youth CAB text message sort
 
 > **Keep this file private.** Anyone who has it can read every response in this session.
-> Keep it only on your computer and in your study team's Teams channel files. Do not put it
-> in a git repository, email it, or paste it into a chat or AI tool. If it is lost, the
-> responses cannot be recovered by anyone.
+> Keep it only on your computer and in a secure place your study has approved for its files.
+> Do not put it in a git repository, email it, or paste it into a chat or AI tool. If it is
+> lost, the responses cannot be recovered by anyone.
 
 | | |
 |---|---|

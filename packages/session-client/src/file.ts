@@ -146,8 +146,8 @@ export async function readDefinition(file: SessionFile): Promise<unknown> {
   return (payload as { appDefinition: unknown }).appDefinition;
 }
 
-const longDate = (iso: string) =>
-  new Intl.DateTimeFormat("en-US", { dateStyle: "long", timeZone: "America/New_York" }).format(new Date(iso));
+// In the time zone of the computer that saves the file, which is where the researcher reads it.
+const longDate = (iso: string) => new Intl.DateTimeFormat("en-US", { dateStyle: "long" }).format(new Date(iso));
 
 export function renderSessionFile(file: SessionFile): string {
   const active = file.participants.filter((p) => !p.revokedAt);
@@ -156,9 +156,9 @@ export function renderSessionFile(file: SessionFile): string {
     `# MalverdeSoftware session key: ${file.title}`,
     "",
     "> **Keep this file private.** Anyone who has it can read every response in this session.",
-    "> Keep it only on your computer and in your study team's Teams channel files. Do not put it",
-    "> in a git repository, email it, or paste it into a chat or AI tool. If it is lost, the",
-    "> responses cannot be recovered by anyone.",
+    "> Keep it only on your computer and in a secure place your study has approved for its files.",
+    "> Do not put it in a git repository, email it, or paste it into a chat or AI tool. If it is",
+    "> lost, the responses cannot be recovered by anyone.",
     "",
     "| | |",
     "|---|---|",
