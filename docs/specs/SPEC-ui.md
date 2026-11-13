@@ -125,7 +125,7 @@ Getting this wrong loses people's data, so these are strict:
 
 ## App names
 
-mVote and mPile become **mVote** and **mPile** at the public rebuild (MVS-13), and every new app follows the same pattern.
+The apps are **mVote** and **mPile**, and every new app follows the same pattern.
 
 - A name is a lowercase "m" and one short capitalized word that says what people do: mVote, mPile. Keep the "m" lowercase at the start of a sentence too.
 - Domains are all lowercase, as `mvote.app`, and printed links MUST show the full address, because the `.com` versions of these names belong to others.
@@ -182,17 +182,17 @@ This spec should change rarely, and on purpose.
 
 ## Examples
 
-Reference builds, pinned so these links stay valid. They point at the archived, private development repositories, so only maintainers can open them:
+Reference builds in the public app repositories, pinned so these links stay valid:
 
-| | Vote (`4dbb75f`) | Pile (`4f5c5e1`) |
+| | mVote | mPile |
 |---|---|---|
-| Accent | [green, `styles.css`](https://github.com/vqsierra/ChoachoakteVote/blob/4dbb75f93b5a257f7828ee08a427ab0b00feae64/webapp/src/styles.css) | [blue, `globals.css`](https://github.com/MalverdeSoftware/choachoaktepile-round1/blob/4f5c5e1c679f50923c70747f782ffcab20bbbed3/app/app/globals.css) |
-| Long list on a phone | [`ItemCard.jsx`](https://github.com/vqsierra/ChoachoakteVote/blob/4dbb75f93b5a257f7828ee08a427ab0b00feae64/webapp/src/components/ItemCard.jsx) | [`sort-board.tsx`](https://github.com/MalverdeSoftware/choachoaktepile-round1/blob/4f5c5e1c679f50923c70747f782ffcab20bbbed3/app/components/participant/sort-board.tsx) |
-| Pinned working header | [`VotingBoard.jsx`](https://github.com/vqsierra/ChoachoakteVote/blob/4dbb75f93b5a257f7828ee08a427ab0b00feae64/webapp/src/components/VotingBoard.jsx) | [`sort-workspace.tsx`](https://github.com/MalverdeSoftware/choachoaktepile-round1/blob/4f5c5e1c679f50923c70747f782ffcab20bbbed3/app/components/participant/sort-workspace.tsx) |
-| Researcher screens | None | [`components/console`](https://github.com/MalverdeSoftware/choachoaktepile-round1/tree/4f5c5e1c679f50923c70747f782ffcab20bbbed3/app/components/console) |
+| Accent | [green, `styles.css`](https://github.com/MalverdeSoftware/mvote/blob/311dbc3512aa53b6bc4af2ab98f0b7ca7d1a1933/webapp/src/styles.css) | [blue, `globals.css`](https://github.com/MalverdeSoftware/mpile/blob/df2243ee69479c390cad25324763012e280cc670/app/app/globals.css) |
+| Long list on a phone | [`ItemCard.jsx`](https://github.com/MalverdeSoftware/mvote/blob/311dbc3512aa53b6bc4af2ab98f0b7ca7d1a1933/webapp/src/components/ItemCard.jsx) | [`sort-board.tsx`](https://github.com/MalverdeSoftware/mpile/blob/df2243ee69479c390cad25324763012e280cc670/app/components/participant/sort-board.tsx) |
+| Pinned working header | [`VotingBoard.jsx`](https://github.com/MalverdeSoftware/mvote/blob/311dbc3512aa53b6bc4af2ab98f0b7ca7d1a1933/webapp/src/components/VotingBoard.jsx) | [`sort-workspace.tsx`](https://github.com/MalverdeSoftware/mpile/blob/df2243ee69479c390cad25324763012e280cc670/app/components/participant/sort-workspace.tsx) |
+| Researcher screens | None | [`components/console`](https://github.com/MalverdeSoftware/mpile/tree/df2243ee69479c390cad25324763012e280cc670/app/components/console) |
 
 ## Adoption
 
-Both apps use `@malverdesoftware/ui` 0.1.0 and run `malverdesoftware-ui-check` in `verify`: mPile from `159c15b` and mVote from `225f34e`. New apps start from the package, vendored as in [CONSUMING](../CONSUMING.md).
+Both apps install `@malverdesoftware/ui` from npm (0.1.1) and run `malverdesoftware-ui-check` in `verify`. New apps start from the package, as in [CONSUMING](../CONSUMING.md).
 
-The [Examples](#examples) above are pinned to the builds just before those moves, so class names there can differ: `.ui-dialog` was `.pile-dialog`, `.touch-menu` was `.pile-menu`, and `.count-badge` was Vote's `.dot-budget`.
+Before the apps adopted the package, `.ui-dialog` was `.pile-dialog`, `.touch-menu` was `.pile-menu`, and `.count-badge` was Vote's `.dot-budget`.

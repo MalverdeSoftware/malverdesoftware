@@ -9,3 +9,6 @@ artifacts/
 
 # Session key files can open every response in a session. Never commit them.
 *.malverdesoftware-session.md
+
+# Local, unshared agent instructions
+AGENTS.local.md

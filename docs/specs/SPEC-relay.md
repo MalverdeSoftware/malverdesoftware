@@ -1,6 +1,6 @@
 # Spec: relay
 
-Module id `relay` · October 25, 2026 · **Status: approved by the author on October 25; passcode lockout was added the same day at their suggestion.** It has no code dependencies. It validates envelope *shape* against the [sealed-envelope wire format](SPEC-sealed-envelope.md#wire-format-v1) but never opens one. Commands, structure, code style and repository-wide boundaries are in the [capability map](round1-capability-map.md#repository-conventions-for-malverdesoftware).
+Module id `relay` · October 25, 2026 · **Status: approved by the author on October 25; passcode lockout was added the same day at their suggestion.** It has no code dependencies. It validates envelope *shape* against the [sealed-envelope wire format](SPEC-sealed-envelope.md#wire-format-v1) but never opens one. Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
 
 ## Objective
 
@@ -178,7 +178,7 @@ Every error response has the same shape, `{ "error": { "code": string, "message"
 
 ## Testing
 
-Module-specific, in addition to the [repository conventions](round1-capability-map.md#repository-conventions-for-malverdesoftware).
+Module-specific, in addition to the [repository conventions](../CONVENTIONS.md).
 
 - **One contract suite, run twice:** against `memoryStore()` and against `sqlStore(nodeSqliteDatabase(":memory:"))`. It covers every endpoint's success path and every error code it can return.
 - **Idempotency:** identical create, add-slots and submission retries replay. Changed payloads conflict.
@@ -191,7 +191,7 @@ Module-specific, in addition to the [repository conventions](round1-capability-m
 
 ## Boundaries
 
-Module-specific additions to the [repository boundaries](round1-capability-map.md#repository-conventions-for-malverdesoftware):
+Module-specific additions to the [repository boundaries](../CONVENTIONS.md#boundaries):
 
 - **Always:** keep the handler limited to the Fetch API and WebCrypto; keep `node:sqlite` in the `/node` entry only.
 - **Ask first:** opening session creation to anyone without a creation key; adding endpoints beyond this table, other than the reserved shared channel; raising limits.
