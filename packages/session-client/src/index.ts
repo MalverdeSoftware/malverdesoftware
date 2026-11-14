@@ -4,6 +4,8 @@ export { prepareSession, readDefinition, renderSessionFile, parseSessionFile } f
 export type { ParticipantEntry, PrepareInput, SessionFile } from "./file.ts";
 export { parseParticipantLink } from "./link.ts";
 export type { ParticipantCredentials } from "./link.ts";
+export { verifySessionFile } from "./verify.ts";
+export type { VerifiedSessionFile } from "./verify.ts";
 export { publishSession, openResearcherSession } from "./researcher.ts";
 export type { CollectedResponse, ParticipantStatus, ResearcherSession, SessionStatus } from "./researcher.ts";
 export { joinSession } from "./participant.ts";
