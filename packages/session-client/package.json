@@ -1,6 +1,6 @@
 {
   "name": "@malverdesoftware/session-client",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "license": "Apache-2.0",
   "description": "Session lifecycle for MalverdeSoftware apps: session key files, personal links with passcodes, sealed drafts and submissions.",
   "type": "module",
@@ -12,6 +12,9 @@
       "default": "./dist/index.js"
     }
   },
+  "bin": {
+    "malverdesoftware-session": "./dist/cli.js"
+  },
   "files": [
     "dist",
     "LICENSE",
@@ -21,7 +24,8 @@
     "@malverdesoftware/sealed-envelope": "0.1.2"
   },
   "devDependencies": {
-    "@malverdesoftware/relay": "0.1.1"
+    "@malverdesoftware/relay": "0.1.1",
+    "@types/node": "24.19.2"
   },
   "scripts": {
     "test": "node --conditions=malverdesoftware-source --disable-warning=ExperimentalWarning --test \"test/*.test.ts\""

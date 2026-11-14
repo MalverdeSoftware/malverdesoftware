@@ -24,6 +24,10 @@ export function renderSessionFile(file: SessionFile): string;                // 
 export function parseSessionFile(markdown: string): SessionFile;             // throws BAD_SESSION_FILE
 export function readDefinition(file: SessionFile): Promise<unknown>;         // local only: the app definition sealed in the file; throws BAD_SESSION_FILE (added in 0.1.1, approved October 26)
 export function publishSession(file: SessionFile, options: { creationKey: string; fetch?: typeof fetch }): Promise<SessionStatus>; // safe to retry
+export function verifySessionFile(markdown: string, expected?: SessionFile): Promise<{ file: SessionFile; participants: number }>; // local only: proves a saved copy opens the definition and responses; with expected, that it is this session and current; throws BAD_SESSION_FILE (added in 0.2.0)
+
+// Command line (bin `malverdesoftware-session`, added in 0.2.0): `verify <key-file>` and `collect <key-file> [--drafts] [--out file.json]`,
+// so a researcher can read a session with only the key file and Node. See docs/DATA-VISIBILITY.md.
 
 export type PrepareInput = {
   app: string;                 // "mpile"
@@ -214,6 +218,8 @@ Module-specific additions to the [repository boundaries](../CONVENTIONS.md#bound
   - a sort survives airplane mode mid-session and syncs afterward
 
 ## Decisions
+
+- **Checking a saved key file** (November 14, 2026): apps call `verifySessionFile` on the file the researcher actually saved, before publishing, so a copy that can't open responses is caught while the session can still be recreated. Passcodes cannot be checked locally; only the relay holds what they derive.
 
 - **Unfinished sorts at close** (accepted October 25): `collect({ includeDrafts: true })` returns drafts as `kind: "DRAFT"`. `mpile-app` exports them in a separate file marked "not submitted," never mixed into submitted results.
 - **Passcodes** (the author's proposal, October 25): every personal link has a six-digit passcode, which also makes continuing on another device safe.

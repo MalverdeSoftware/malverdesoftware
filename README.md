@@ -35,6 +35,7 @@ See [docs/CONSUMING.md](docs/CONSUMING.md) for pinning, entry points and upgrade
 | [sealed-envelope spec](docs/specs/SPEC-sealed-envelope.md) | Browser encryption and the envelope wire format |
 | [relay spec](docs/specs/SPEC-relay.md) | Ciphertext-only store and its HTTP contract |
 | [session-client spec](docs/specs/SPEC-session-client.md) | Session lifecycle, personal links, passcodes and the session key file |
+| [What the relay can see](docs/DATA-VISIBILITY.md) | What leaves a device, what the relay and Cloudflare can see, and reading data without the app |
 | [mUI spec](docs/specs/SPEC-ui.md) | How every app looks and behaves: Ring UI, type, color, phones, confirmation |
 | [mGameUI spec](docs/specs/SPEC-game-ui.md) | Everything in a game, including what it takes from Ring and mUI, the apps' spec |
 | [Distribution spec](docs/specs/SPEC-distribution.md) | Registries, releases, DOIs and who can create sessions |
