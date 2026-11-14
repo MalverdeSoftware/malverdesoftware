@@ -1,5 +1,7 @@
 # MalverdeSoftware
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24184643.svg)](https://doi.org/10.5281/zenodo.24184643) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![CI](https://github.com/MalverdeSoftware/malverdesoftware/actions/workflows/ci.yml/badge.svg)](https://github.com/MalverdeSoftware/malverdesoftware/actions/workflows/ci.yml)
+
 Shared foundations for MalverdeSoftware: separate, lightweight research tools for community-based participatory research. They are meant to be free, need no logins, work on phones and in the field, and leave data with the people who collect it.
 
 **Status: early release.** The packages are used by [mPile](https://github.com/MalverdeSoftware/mpile) and [mVote](https://github.com/MalverdeSoftware/mvote). Open source under the [Apache License 2.0](LICENSE); see [License and citation](#license-and-citation).
